@@ -45,10 +45,10 @@ const Hero = () => {
     </div>
   </div>
 </div>
-<div className='w-[350px] md:w-[580px] bg-white/70 mx-auto px-2 md:px-3 py-2  rounded text-center absolute bottom-15 md:bottom-40 left-[20px] md:left-[350px] shadow-2xl  text-gray-700 '>
+<div className='w-[400px]  md:w-[580px] bg-white/70 mx-auto px-2 md:px-3 py-2  rounded text-center absolute bottom-23 md:bottom-40 left-[20px] md:left-[350px] shadow-2xl  text-gray-700 '>
   
-  <p className='font-medium'>Discover the beauty of Bangladesh like never before! From the golden beaches of Cox’s Bazar to the serene tea gardens of Sylhet, let GoBangla be your guide to unforgettable adventures. Start your journey today!</p>
-  <h1 className='text-red-600 font-bold'>GoBangla – <span className='text-green-600'>Unlock the Beauty of Bangladesh!</span> </h1>
+  <p className='font-normal md:font-medium'>Discover the beauty of Bangladesh like never before! From the golden beaches of Cox’s Bazar to the serene tea gardens of Sylhet, let GoBangla be your guide to unforgettable adventures. Start your journey today!</p>
+  <h1 className='text-red-600 font-semibold md:font-bold'>GoBangla – <span className='text-green-600'>Unlock the Beauty of Bangladesh!</span> </h1>
   <button className="btn btn-outline  capitalize my-2 text-green-600">explore more</button>
 </div>
     </div>
