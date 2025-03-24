@@ -27,7 +27,7 @@ const AllCategory = ({ data }) => {
             </button>
           ))}
         </div>
-        <div className="grid md:grid-cols-4 gap-3 my-10 justify-center">{
+        <div className="grid md:grid-cols-4 gap-3 my-10 justify-center px-5 md:px-0">{
           selectedCat.map((item)=> <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 flex flex-col h-[450px]">
           <a href="#">
             <img className="rounded-t-lg h-60 w-full object-cover" src={item.image_url} alt="" />

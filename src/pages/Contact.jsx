@@ -36,7 +36,7 @@ const Contact = () => {
         <div className="  p-4 ">
           <div className="font-bold text-xl flex justify-between my-3 text-gray-500">
             <h2>Stay in touch</h2>
-            <h2>018555001</h2>
+           
           </div>
           <div className="block md:flex justify-between gap-5">
             <div className="shadow p-4 rounded">

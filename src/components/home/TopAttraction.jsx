@@ -16,7 +16,7 @@ const TopAttraction = ({data}) => {
             <FaArrowRight />
     
           </div>
-          <div className='grid md:grid-cols-4 gap-5 my-10 justify-center'>
+          <div className='grid md:grid-cols-4 gap-5 my-10 justify-center px-5 md:px-0'>
             {
               topAttractionCat.map((item)=><Link to={`/${item.id}`}>
                 

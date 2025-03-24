@@ -19,7 +19,7 @@ const ProductDetails = () => {
   </span>
   </div> 
 
-  return <div className=" container mx-auto my-10">
+  return <div className=" container  mx-auto my-10">
     <div className="hero bg-base-200  ">
   <div className="hero-content flex-col lg:flex-row gap-10">
     <div className="w-full md:w-1/2">
@@ -30,7 +30,7 @@ const ProductDetails = () => {
     </div>
     <div className="w-full md:w-1/2 ">
       
-      <h1 className="text-5xl font-bold">{popular.name}</h1>
+      <h1 className="text-3xl md:text-5xl font-bold">{popular.name}</h1>
       <div className="flex  gap-10 my-5 font-semibold">
         <p>{popular.type}</p>
         <p>{popular.location}</p>

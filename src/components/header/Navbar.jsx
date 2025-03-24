@@ -31,15 +31,22 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-10 mt-3 w-52 p-2 shadow"
             >
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Parent</a>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
+              <li className="font-bold ">
+             <Link to="/">Home</Link>
+             
+            </li>
+              <li className="font-bold ">
+             <Link to="/blog">Blog</Link>
+             
+            </li>
+            <li className="font-bold">
+            <Link to="/contact">Contact</Link>
+             
+            </li>
+            <li className="font-bold">
+            <Link to="/login">Login</Link>
+             
+            </li>
             </ul>
           </div>
           <Link to="/" className="flex items-center">
@@ -93,7 +100,7 @@ const Navbar = () => {
              
             </li>
             <li className="font-bold">
-            <Link to="/contact">Login</Link>
+            <Link to="/login">Login</Link>
              
             </li>
           </ul>
