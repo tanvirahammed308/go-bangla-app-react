@@ -9,9 +9,9 @@ const BookedTrip = () => {
     <div className="my-10 ">
       <div>
         <h1 className="capitalize font-semibold text-2xl text-green-500 text-center">
-          booked your trip now
+          book your trip now
         </h1>
-        <div className="my-5 flex justify-center ">
+        <div className="my-5 flex justify-center bg-white py-5 shadow rounded">
           <div className="relative ">
             <div className="block md:flex gap-5 justify-center space-y-4 md:space-y-0">
               <div className="bg-[#F5EEFD] items-center flex flex-col justify-center w-[350px] p-5 rounded">

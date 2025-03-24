@@ -8,7 +8,7 @@ const TopAttraction = ({data}) => {
   
   return (
     <div>
-          <div className='flex items-center gap-5'>
+          <div className='flex items-center gap-5 px-5 md:px-0'>
             <h2 className='capitalize font-bold text-xl my-5 text-green-500   ' >Top Attraction
             
     
@@ -21,9 +21,9 @@ const TopAttraction = ({data}) => {
               topAttractionCat.map((item)=><Link to={`/${item.id}`}>
                 
     
-    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 ">
+    <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 h-[430px]">
       <a href="#">
-        <img className="rounded-t-lg" src={item.image_url} alt />
+        <img className="rounded-t-lg h-55 w-full" src={item.image_url} alt />
       </a>
       <div className="p-5  ">
         <div className='flex justify-between'>
@@ -34,7 +34,7 @@ const TopAttraction = ({data}) => {
        
     
         </div>
-        <div className=' h-32'>
+        <div className=' flex-grow'>
     
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 ">{item.description}</p>
         </div>

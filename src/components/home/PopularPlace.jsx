@@ -11,7 +11,7 @@ const PopularPlace = ({data}) => {
 
   return (
     <div>
-      <div className='flex items-center gap-5'>
+      <div className='flex items-center gap-5 px-5 md:px-0'>
         <h2 className='capitalize font-bold text-xl my-5 text-green-500   ' >Popular Tours
         
 
@@ -24,26 +24,27 @@ const PopularPlace = ({data}) => {
           filterPopularCat.map((item)=><Link to={`/${item.id}`}>
             
 
-<div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 ">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 flex flex-col h-[430px]">
   <a href="#">
-    <img className="rounded-t-lg" src={item.image_url} alt />
+    <img className="rounded-t-lg h-60 w-full object-cover" src={item.image_url} alt="" />
   </a>
-  <div className="p-5  ">
-    <div className='flex justify-between'>
-    
-      <h5 className="mb-2  font-bold tracking-tight text-gray-900 dark:text-white">{item.name}</h5>
-   
-      <h5 className="mb-2  font-bold tracking-tight text-gray-900 dark:text-white">{item.type}</h5>
-   
-
+  <div className="p-3">
+    <div className="flex justify-between">
+      <h5 className="mb-2 font-bold tracking-tight text-gray-900 dark:text-white">
+        {item.name}
+      </h5>
+      <h5 className="mb-2 font-bold tracking-tight text-gray-900 dark:text-white">
+        {item.type}
+      </h5>
     </div>
-    <div className='h-32'>
-
-    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 ">{item.description}</p>
+    <div className="flex-grow ">
+      <p className="font-normal text-gray-700 dark:text-gray-400">
+        {item.description}
+      </p>
     </div>
-    
   </div>
 </div>
+
 
 
           </Link>)

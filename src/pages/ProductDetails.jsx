@@ -51,7 +51,7 @@ const ProductDetails = () => {
             </li>)
         }
       </p>
-      <p> visit: <span className="text-red-500"> {popular.best_time_to_visit}</span>  </p>
+      <p>Best Time To visit : <span className="text-red-500"> {popular.best_time_to_visit}</span>  </p>
       </div>
       <button className="btn btn-outline border-green-500 text-gray-800">Add To Cart</button>
     </div>

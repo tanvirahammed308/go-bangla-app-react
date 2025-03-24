@@ -25,7 +25,7 @@ const Home = () => {
       <PopularPlace data={data}/>
       <TopAttraction data={data}/>
       <HiddenGem data={data}/>
-      <AllCategory/>
+      <AllCategory data={data}/>
     </div>
   )
 }

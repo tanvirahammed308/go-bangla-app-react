@@ -71,8 +71,8 @@ const Navbar = () => {
             <li>
               <details>
                 <summary className="font-bold ">Tours & Packages</summary>
-                <ul className="px-2 z-30  w-40">
-                  <li>
+                <ul className="px-2 z-30  w-40 ">
+                  <li className="">
                     <Link>Cultural Tours</Link>
                   </li>
                   <li>
@@ -84,7 +84,7 @@ const Navbar = () => {
                 </ul>
               </details>
             </li>
-            <li className="font-bold">
+            <li className="font-bold ">
              <Link to="/blog">Blog</Link>
              
             </li>

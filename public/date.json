@@ -1,320 +1,320 @@
- [
-      {
-        "id": 1,
-        "name": "Bogura",
-        "type": "Historical Site",
-        "location": "Rajshahi Division",
-        "category": "Top Attractions",
-        "description": "Bogura is known for its ancient ruins and archaeological sites, such as Mahasthangarh, one of the most significant archaeological sites in Bangladesh.",
-        "attractions": [
-          "Mahasthangarh",
-          "Bogra Museum",
-          "Gokul Medh"
-        ],
-        "best_time_to_visit": "October to March",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT"
-      },
-      {
-        "id": 2,
-        "name": "Kurigram",
-        "type": "Nature",
-        "location": "Rangpur Division",
-        "category": "Hidden Gems",
-        "description": "Kurigram offers lush green landscapes, rivers, and the scenic beauty of the Brahmaputra River, making it a hidden gem for nature lovers.",
-        "attractions": [
-          "Brahmaputra River",
-          "Sadar Upazila",
-          "Kurigram Museum"
-        ],
-        "best_time_to_visit": "October to March",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT"
-      },
-      {
-        "id": 3,
-        "name": "Jatiyo Sangsad Bhaban",
-        "type": "Architectural",
-        "location": "Dhaka Division",
-        "category": "Top Attractions",
-        "description": "The National Parliament House, designed by architect Louis Kahn, is one of the most iconic buildings in Bangladesh, showcasing modernist architecture.",
-        "attractions": [
-          "National Parliament Tour",
-          "Open Green Spaces"
-        ],
-        "best_time_to_visit": "All year round",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT (for guided tour)"
-      },
-      {
-        "id": 4,
-        "name": "Ruma",
-        "type": "Hill Station",
-        "location": "Chittagong Division",
-        "category": "Popular Places",
-        "description": "Ruma is a popular trekking base for exploring the hills and waterfalls of Bandarban, with its proximity to the beautiful Nafakhum and Remakri Waterfalls.",
-        "attractions": [
-          "Nafakhum Waterfall",
-          "Trekking to Keokradong",
-          "Ruma Bazaar"
-        ],
-        "best_time_to_visit": "November to February",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT (Trekking fees may apply)"
-      },
-      {
-        "id": 5,
-        "name": "Chhuti Bagan",
-        "type": "Nature",
-        "location": "Sylhet Division",
-        "category": "Hidden Gems",
-        "description": "Chhuti Bagan is a peaceful tea garden, offering stunning views of Sylhet's hills and tea plantations, making it a popular spot for nature lovers.",
-        "attractions": [
-          "Tea Gardens",
-          "Hiking Trails",
-          "Sylhet Hills"
-        ],
-        "best_time_to_visit": "October to March",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT"
-      },
-      {
-        "id": 6,
-        "name": "Kuakata",
-        "type": "Beach",
-        "location": "Barisal Division",
-        "category": "Popular Places",
-        "description": "Kuakata, known as the 'Daughter of the Sea,' offers both sunrise and sunset views on its long sandy beach.",
-        "attractions": [
-          "Kuakata Beach",
-          "Fatrar Char",
-          "Kuakata Temple"
-        ],
-        "best_time_to_visit": "November to March",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT"
-      },
-      {
-        "id": 7,
-        "name": "Patuakhali",
-        "type": "Beach",
-        "location": "Barisal Division",
-        "category": "Top Attractions",
-        "description": "Patuakhali is known for its serene beaches and natural beauty, offering a peaceful escape from the hustle and bustle of the city.",
-        "attractions": [
-          "Kuakata Beach",
-          "Sonakata Beach",
-          "Rangabali Island"
-        ],
-        "best_time_to_visit": "November to March",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT"
-      },
-      {
-        "id": 8,
-        "name": "Lalbagh Fort",
-        "type": "Historical Site",
-        "location": "Dhaka Division",
-        "category": "Popular Places",
-        "description": "Lalbagh Fort is a 17th-century Mughal fort complex, rich in history and architecture, located in the heart of Dhaka.",
-        "attractions": [
-          "Mausoleum of Bibi Pari",
-          "Lalbagh Mosque",
-          "Archaeological Museum"
-        ],
-        "best_time_to_visit": "October to March",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT (Entry Fee)"
-      },
-      {
-        "id": 9,
-        "name": "Shat Gombuj Mosque",
-        "type": "Historical Site",
-        "location": "Khulna Division",
-        "category": "Top Attractions",
-        "description": "A UNESCO World Heritage site, the Shat Gombuj Mosque is an architectural masterpiece from the Sultanate period with 77 domes.",
-        "attractions": [
-          "Shat Gombuj Mosque",
-          "Bagerhat Archaeological Site"
-        ],
-        "best_time_to_visit": "October to March",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT"
-      },
-      {
-        "id": 10,
-        "name": "Pondit Bazar",
-        "type": "Cultural",
-        "location": "Rajshahi Division",
-        "category": "Hidden Gems",
-        "description": "Pondit Bazar is an important cultural hub of Rajshahi, known for its vibrant local markets, heritage, and architecture.",
-        "attractions": [
-          "Local Handicrafts",
-          "Rajshahi University",
-          "Pondit Bazar Mosque"
-        ],
-        "best_time_to_visit": "November to February",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT"
-      },
-      {
-        "id": 11,
-        "name": "Sundarbans",
-        "type": "Nature",
-        "location": "Khulna Division",
-        "category": "Top Attractions",
-        "description": "The Sundarbans is the world's largest mangrove forest and a UNESCO World Heritage site, home to the Royal Bengal Tiger and diverse wildlife.",
-        "attractions": [
-          "Wildlife Tours",
-          "Boat Tours",
-          "Tigers of Sundarbans"
-        ],
-        "best_time_to_visit": "November to February",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "2000 BDT"
-      },
-      {
-        "id": 12,
-        "name": "Chittagong Hill Tracts",
-        "type": "Nature",
-        "location": "Chittagong Division",
-        "category": "Hidden Gems",
-        "description": "The Chittagong Hill Tracts offer beautiful mountain ranges, lush green forests, and serene waterfalls, making it an ideal destination for nature lovers.",
-        "attractions": [
-          "Bandarban",
-          "Khagrachari",
-          "Rangamati"
-        ],
-        "best_time_to_visit": "October to March",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT"
-      },
-      {
-        "id": 13,
-        "name": "Saint Martin's Island",
-        "type": "Beach",
-        "location": "Chittagong Division",
-        "category": "Popular Places",
-        "description": "Saint Martin's Island, the only coral island of Bangladesh, is known for its crystal-clear water, sandy beaches, and picturesque views.",
-        "attractions": [
-          "Coral Reefs",
-          "Snorkeling",
-          "Fishing Villages"
-        ],
-        "best_time_to_visit": "November to March",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT"
-      },
-      {
-        "id": 14,
-        "name": "Cox's Bazar",
-        "type": "Beach",
-        "location": "Chittagong Division",
-        "category": "Top Attractions",
-        "description": "Cox's Bazar is home to the longest natural sea beach in the world, attracting visitors with its vast, beautiful coastline.",
-        "attractions": [
-          "Cox's Bazar Beach",
-          "Inani Beach",
-          "Himchori Waterfall"
-        ],
-        "best_time_to_visit": "November to February",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT"
-      },
-      {
-        "id": 15,
-        "name": "Bandarban",
-        "type": "Nature",
-        "location": "Chittagong Division",
-        "category": "Top Attractions",
-        "description": "Bandarban is a stunning hill district, offering breathtaking views, waterfalls, and cultural diversity.",
-        "attractions": [
-          "Sangu River",
-          "Chimbuk Hill",
-          "Boga Lake"
-        ],
-        "best_time_to_visit": "October to March",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT"
-      },
-      {
-        "id": 16,
-        "name": "Srimangal",
-        "type": "Nature",
-        "location": "Sylhet Division",
-        "category": "Hidden Gems",
-        "description": "Srimangal, the 'Tea Capital of Bangladesh,' offers picturesque tea gardens and lush green landscapes.",
-        "attractions": [
-          "Tea Gardens",
-          "Lawachara National Park",
-          "Srimangal Tea Museum"
-        ],
-        "best_time_to_visit": "October to March",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT"
-      },
-      {
-        "id": 17,
-        "name": "Madhabkunda Waterfall",
-        "type": "Nature",
-        "location": "Sylhet Division",
-        "category": "Hidden Gems",
-        "description": "Madhabkunda is the largest waterfall in Bangladesh, located in the Moulvibazar district, offering stunning views and a serene environment.",
-        "attractions": [
-          "Waterfall Trekking",
-          "Hiking Trails"
-        ],
-        "best_time_to_visit": "October to March",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT"
-      },
-      {
-        "id": 18,
-        "name": "Jaflong",
-        "type": "Nature",
-        "location": "Sylhet Division",
-        "category": "Hidden Gems",
-        "description": "Jaflong is known for its natural beauty, tea gardens, hills, and crystal-clear rivers, perfect for trekking and adventure activities.",
-        "attractions": [
-          "Jaflong Hills",
-          "Shanti Ghat"
-        ],
-        "best_time_to_visit": "October to March",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT"
-      },
-      {
-        "id": 19,
-        "name": "Cox's Bazar",
-        "type": "Beach",
-        "location": "Chittagong Division",
-        "category": "Top Attractions",
-        "description": "Cox's Bazar is home to the longest natural sea beach in the world, attracting visitors with its vast, beautiful coastline.",
-        "attractions": [
-          "Cox's Bazar Beach",
-          "Inani Beach",
-          "Himchori Waterfall"
-        ],
-        "best_time_to_visit": "November to February",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT"
-      },
-      {
-        "id": 20,
-        "name": "Sylhet",
-        "type": "Nature",
-        "location": "Sylhet Division",
-        "category": "Hidden Gems",
-        "description": "Sylhet is a natural beauty with its lush green tea gardens, waterfalls, and scenic landscapes, making it a peaceful getaway.",
-        "attractions": [
-          "Jaflong",
-          "Madhabkunda Waterfall",
-          "Srimangal Tea Gardens"
-        ],
-        "best_time_to_visit": "October to March",
-        "image_url": "https://images.unsplash.com/photo-1627491922812-30d9e485c0fc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "price": "1500 BDT"
-      }
-    ]
-  
-  
+[
+  {
+    "id": 1,
+    "name": "Bogura",
+    "type": "Historical Site",
+    "location": "Rajshahi Division",
+    "category": "Top Attractions",
+    "description": "Bogura is known for its ancient ruins and archaeological sites, such as Mahasthangarh, one of the most significant archaeological sites in Bangladesh.",
+    "attractions": [
+      "Mahasthangarh",
+      "Bogra Museum",
+      "Gokul Medh"
+    ],
+    "best_time_to_visit": "October to March",
+    "image_url": "https://farm8.staticflickr.com/7620/27715467586_81cf9c0141_b.jpg",
+    "price": "1500 BDT"
+  },
+  {
+    "id": 2,
+    "name": "Kurigram",
+    "type": "Nature",
+    "location": "Rangpur Division",
+    "category": "Hidden Gems",
+    "description": "Kurigram offers lush green landscapes, rivers, and the scenic beauty of the Brahmaputra River, making it a hidden gem for nature lovers.",
+    "attractions": [
+      "Brahmaputra River",
+      "Sadar Upazila",
+      "Kurigram Museum"
+    ],
+    "best_time_to_visit": "October to March",
+    "image_url": "https://live.staticflickr.com/4681/24588057537_69e125500e_b.jpg",
+    "price": "1500 BDT"
+  },
+  {
+    "id": 3,
+    "name": "Jatiyo Sangsad Bhaban",
+    "type": "Architectural",
+    "location": "Dhaka Division",
+    "category": "Top Attractions",
+    "description": "The National Parliament House, designed by architect Louis Kahn, is one of the most iconic buildings in Bangladesh, showcasing modernist architecture.",
+    "attractions": [
+      "National Parliament Tour",
+      "Open Green Spaces"
+    ],
+    "best_time_to_visit": "All year round",
+    "image_url": "https://media.istockphoto.com/id/1437709651/photo/the-most-famous-architecture-in-dhaka-stock-photo.jpg?s=612x612&w=0&k=20&c=wVwSMB0nkapM8PhlgD12njYUUgIRn9ToB6fCYcFPg5s=",
+    "price": "1500 BDT (for guided tour)"
+  },
+  {
+    "id": 4,
+    "name": "Ruma",
+    "type": "Hill Station",
+    "location": "Chittagong Division",
+    "category": "Popular Places",
+    "description": "Ruma is a popular trekking base for exploring the hills and waterfalls of Bandarban, with its proximity to the beautiful Nafakhum and Remakri Waterfalls.",
+    "attractions": [
+      "Nafakhum Waterfall",
+      "Trekking to Keokradong",
+      "Ruma Bazaar"
+    ],
+    "best_time_to_visit": "November to February",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Keokradong_10.jpg/500px-Keokradong_10.jpg",
+    "price": "1500 BDT (Trekking fees may apply)"
+  },
+  {
+    "id": 5,
+    "name": "Chhuti Bagan",
+    "type": "Nature",
+    "location": "Sylhet Division",
+    "category": "Hidden Gems",
+    "description": "Chhuti Bagan is a peaceful tea garden, offering stunning views of Sylhet's hills and tea plantations, making it a popular spot for nature lovers.",
+    "attractions": [
+      "Tea Gardens",
+      "Hiking Trails",
+      "Sylhet Hills"
+    ],
+    "best_time_to_visit": "October to March",
+    "image_url": "https://adivai.com/wp-content/uploads/2024/12/image-6394-1481962804.jpg",
+    "price": "1500 BDT"
+  },
+  {
+    "id": 6,
+    "name": "Kuakata",
+    "type": "Beach",
+    "location": "Barisal Division",
+    "category": "Popular Places",
+    "description": "Kuakata, known as the 'Daughter of the Sea,' offers both sunrise and sunset views on its long sandy beach.",
+    "attractions": [
+      "Kuakata Beach",
+      "Fatrar Char",
+      "Kuakata Temple"
+    ],
+    "best_time_to_visit": "November to March",
+    "image_url": "https://media.istockphoto.com/id/1307397495/photo/landscape-photo-of-kuakata-sea-beach.jpg?s=612x612&w=0&k=20&c=q4f-dOyriY3uT-AU47wR-a-BDw075txXa2UGWyRaT9I=",
+    "price": "1500 BDT"
+  },
+  {
+    "id": 7,
+    "name": "Patuakhali",
+    "type": "Beach",
+    "location": "Barisal Division",
+    "category": "Top Attractions",
+    "description": "Patuakhali is known for its serene beaches and natural beauty, offering a peaceful escape from the hustle and bustle of the city.",
+    "attractions": [
+      "Kuakata Beach",
+      "Sonakata Beach",
+      "Rangabali Island"
+    ],
+    "best_time_to_visit": "November to March",
+    "image_url": "https://media.istockphoto.com/id/1472574308/photo/beautiful-riverside.jpg?s=612x612&w=0&k=20&c=shWNOyxZVchCAWsjC7XD_Ru7iyYgjTEysUceak-AlAQ=",
+    "price": "1500 BDT"
+  },
+  {
+    "id": 8,
+    "name": "Lalbagh Fort",
+    "type": "Historical Site",
+    "location": "Dhaka Division",
+    "category": "Popular Places",
+    "description": "Lalbagh Fort is a 17th-century Mughal fort complex, rich in history and architecture, located in the heart of Dhaka.",
+    "attractions": [
+      "Mausoleum of Bibi Pari",
+      "Lalbagh Mosque",
+      "Archaeological Museum"
+    ],
+    "best_time_to_visit": "October to March",
+    "image_url": "https://media.gettyimages.com/id/144097590/photo/lalbagh-fort-bangla-mughal-style-architecture-dhaka-bangladesh.jpg?s=612x612&w=0&k=20&c=UlF2lNgAQhkwBvju5t9k8MeTwcf96bC259od6yLuKt4=",
+    "price": "1500 BDT (Entry Fee)"
+  },
+  {
+    "id": 9,
+    "name": "Shat Gombuj Mosque",
+    "type": "Historical Site",
+    "location": "Khulna Division",
+    "category": "Top Attractions",
+    "description": "A UNESCO World Heritage site, the Shat Gombuj Mosque is an architectural masterpiece from the Sultanate period with 77 domes.",
+    "attractions": [
+      "Shat Gombuj Mosque",
+      "Bagerhat Archaeological Site"
+    ],
+    "best_time_to_visit": "October to March",
+    "image_url": "https://media1.thrillophilia.com/filestore/a63033cf6ucd5vn8bkm9v9g3wo8b_EvzsayeXIAEw6eA.jpg?w=753&h=450&dpr=2.0",
+    "price": "1500 BDT"
+  },
+  {
+    "id": 10,
+    "name": "Pondit Bazar",
+    "type": "Cultural",
+    "location": "Rajshahi Division",
+    "category": "Hidden Gems",
+    "description": "Pondit Bazar is an important cultural hub of Rajshahi, known for its vibrant local markets, heritage, and architecture.",
+    "attractions": [
+      "Local Handicrafts",
+      "Rajshahi University",
+      "Pondit Bazar Mosque"
+    ],
+    "best_time_to_visit": "November to February",
+    "image_url": "https://thumbs.dreamstime.com/b/overview-street-scene-local-vegetable-market-dhaka-bangladesh-showing-colorfull-fruits-spices-107073304.jpg?w=992",
+    "price": "1500 BDT"
+  },
+  {
+      "id": 11,
+      "name": "Cox's Bazar",
+      "type": "Beach",
+      "location": "Chattogram Division",
+      "category": "Top Attractions",
+      "description": "Cox's Bazar is famous for having the longest natural sandy sea beach in the world, stretching over 120 km.",
+      "attractions": [
+        "Sea Beach",
+        "Himchari National Park",
+        "Inani Beach"
+      ],
+      "best_time_to_visit": "October to March",
+      "image_url": "https://images.pexels.com/photos/20500882/pexels-photo-20500882/free-photo-of-view-of-an-empty-rocky-shore-and-the-seascape.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "price": "2000 BDT"
+    },
+    {
+      "id": 12,
+      "name": "Saint Martin's Island",
+      "type": "Island",
+      "location": "Chattogram Division",
+      "category": "Nature & Adventure",
+      "description": "The only coral island in Bangladesh, known for its crystal-clear waters and natural beauty.",
+      "attractions": [
+        "Coral Reef",
+        "Snorkeling",
+        "Seafood"
+      ],
+      "best_time_to_visit": "November to March",
+      "image_url": "https://media1.thrillophilia.com/filestore/tqoi06pkedw6xqpbapzvkhgylfu8_28849d88548b64a6f18ef8dd65b07539.jpg?w=753&h=450&dpr=2.0",
+      "price": "2500 BDT"
+    },
+    {
+      "id": 13,
+      "name": "Paharpur Vihara",
+      "type": "Archaeological Site",
+      "location": "Rajshahi Division",
+      "category": "Popular Places",
+      "description": "Paharpur Vihara is one of the largest Buddhist monasteries south of the Himalayas, dating back to the 8th century.",
+      "attractions": [
+        "Ancient Monastery",
+        "Museum",
+        "UNESCO Site"
+      ],
+      "best_time_to_visit": "October to March",
+      "image_url": "https://media1.thrillophilia.com/filestore/83xcl0o4hp3bssoi1y2a8tr7ml12_EPx8dEaVAAEWKk2.jpg_large?w=753&h=450&dpr=2.0",
+      "price": "150 BDT"
+    },
+    {
+      "id": 14,
+      "name": "Sonargaon",
+      "type": "Historical Site",
+      "location": "Dhaka Division",
+      "category": "Top Attractions",
+      "description": "An ancient capital of Bengal, Sonargaon features historic buildings, including the Folk Art and Craft Museum.",
+      "attractions": [
+        "Panam City",
+        "Folk Art Museum",
+        "Historic Ruins"
+      ],
+      "best_time_to_visit": "October to March",
+      "image_url": "https://media1.thrillophilia.com/filestore/6ytlq8eswu1glft0hgp7g8ahzdb0_DQo9UJ9XkAEma2Z.jpg_large?w=753&h=450&dpr=2.0",
+      "price": "100 BDT"
+    },
+    {
+      "id": 15,
+      "name": "Rangamati",
+      "type": "Hill District",
+      "location": "Chattogram Division",
+      "category": "Nature & Adventure",
+      "description": "Rangamati is known for its picturesque landscapes, including Kaptai Lake and indigenous culture.",
+      "attractions": [
+        "Kaptai Lake",
+        "Tribal Culture",
+        "Hiking"
+      ],
+      "best_time_to_visit": "October to March",
+      "image_url": "https://media1.thrillophilia.com/filestore/xjp5cwag6z2a18o2mswtal7djp2y_7d013fc8bd63f7a185c9aeb41864e919.jpg?w=753&h=450&dpr=2.0",
+      "price": "2000 BDT"
+    },
+    {
+      "id": 16,
+      "name": "Tanguar Haor",
+      "type": "Wetland",
+      "location": "Mymensingh Division",
+      "category": "Nature & Adventure",
+      "description": "A large wetland area known for birdwatching and natural beauty.",
+      "attractions": [
+        "Birdwatching",
+        "Wetland Ecosystem",
+        "Fishing"
+      ],
+      "best_time_to_visit": "November to March",
+      "image_url": "https://media1.thrillophilia.com/filestore/ipf4x22vd596jyi9b8o7uaqzipeo_1622035020_shutterstock_1459147301.jpg?w=753&h=450&dpr=2.0",
+      "price": "1500 BDT"
+    },
+    {
+      "id": 17,
+      "name": "Jaflong",
+      "type": "Hill Station",
+      "location": "Sylhet Division",
+      "category": "Nature & Adventure",
+      "description": "Famous for its tea gardens, rolling hills, and scenic views of the Meghalaya hills.",
+      "attractions": [
+        "Jaflong Hills",
+        "Tea Gardens",
+        "Border View"
+      ],
+      "best_time_to_visit": "October to March",
+      "image_url": "https://media.istockphoto.com/id/2159435300/photo/a-scenic-view-of-jaflong-zero-point.webp?a=1&b=1&s=612x612&w=0&k=20&c=_gc527VmaeHZjqmECXpd84lyLEXvGIXyZnVbH6_zyME=",
+      "price": "1200 BDT"
+    },
+    {
+      "id": 18,
+      "name": "Bagerhat",
+      "type": "Historical Site",
+      "location": "Khulna Division",
+      "category": "Popular Places",
+      "description": "Known for the historic Sixty Dome Mosque, a UNESCO World Heritage site.",
+      "attractions": [
+        "Sixty Dome Mosque",
+        "Bagerhat Bazaar",
+        "Historic Monuments"
+      ],
+      "best_time_to_visit": "October to March",
+      "image_url": "https://t3.ftcdn.net/jpg/09/55/48/74/360_F_955487481_ROkAVOJveK5pye9soiR4TAJmpFc2Jofv.jpg",
+      "price": "200 BDT"
+    },
+    {
+      "id": 19,
+      "name": "Khagrachari",
+      "type": "Hill Station",
+      "location": "Chattogram Division",
+      "category": "Nature & Adventure",
+      "description": "A beautiful hill district known for its scenic beauty, waterfalls, and natural resources.",
+      "attractions": [
+        "Madhabkunda Waterfall",
+        "Sakpura Hills",
+        "Tribal Communities"
+      ],
+      "best_time_to_visit": "October to March",
+      "image_url": "https://media.gettyimages.com/id/566455439/photo/an-aerial-view-of-sajek-in-khagrachari-one-of-the-hill-districts-under-chittagong-division-of.jpg?s=612x612&w=0&k=20&c=d97lTmSVV-Qr2OM2quwO8Fpclvs9gAzvd1V1B1ME72A=",
+      "price": "1800 BDT"
+    },
+    {
+      "id": 20,
+      "name": "Kaptai Lake",
+      "type": "Lake",
+      "location": "Chattogram Division",
+      "category": "Nature & Adventure",
+      "description": "The largest lake in Bangladesh, known for its scenic beauty and surrounding hills.",
+      "attractions": [
+        "Boating",
+        "Hiking",
+        "Tribal Culture"
+      ],
+      "best_time_to_visit": "October to March",
+      "image_url": "https://media.gettyimages.com/id/975972152/photo/kaptai-lake.jpg?s=612x612&w=0&k=20&c=DNzFU8s7gfl4AGGcD1xeoIdN7SdE3RHwFb31smGDcfw=",
+      "price": "1000 BDT"
+}
+]

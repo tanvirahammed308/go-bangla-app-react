@@ -8,7 +8,7 @@ const HiddenGem = ({data}) => {
   return (
     
     <div>
-              <div className='flex items-center gap-5'>
+              <div className='flex items-center gap-5 px-5 md:px-0'>
                 <h2 className='capitalize font-bold text-xl my-5 text-green-500   ' >Hidden  Gems
                 
         

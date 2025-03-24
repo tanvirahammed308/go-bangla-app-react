@@ -12,6 +12,9 @@ const Blog = () => {
         className="hero min-h-screen "
         style={{
           backgroundImage: `url(${blog})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          borderRadius: ""
         }}
       >
         <div className="hero-overlay"></div>
@@ -30,7 +33,7 @@ const Blog = () => {
       </div>
       <div className="my-10 grid md:grid-cols-4 gap-2 justify-center">
         <div className="w-[300px] border-2 border-green-500 shadow rounded">
-          <img src={blog1} alt="" className="w-full" />
+          <img src={blog1} alt="" className="w-full h-52" />
           <div className="px-5 py-2">
             <h1 className="font-bold">Top 5 Must-Visit Places in Sylhet</h1>
             <p className="text-sm">
@@ -52,7 +55,7 @@ const Blog = () => {
           </div>
         </div>
         <div className="w-[300px] border-2 border-green-500 shadow rounded">
-          <img src={blog2} alt="" className="w-full" />
+          <img src={blog2} alt="" className="w-full h-52" />
           <div className="px-5 py-2">
             <h1 className="font-bold">A Weekend Getaway in Cox’s Bazar</h1>
             <p className="text-sm">
@@ -73,7 +76,7 @@ const Blog = () => {
           </div>
         </div>
         <div className="w-[300px] border-2 border-green-500 shadow rounded">
-          <img src={blog3} alt="" className="w-full" />
+          <img src={blog3} alt="" className="w-full h-52" />
           <div className="px-5 py-2">
             <h1 className="font-bold">
               Rajshahi: The City of Mangoes & History
@@ -98,7 +101,7 @@ const Blog = () => {
           </div>
         </div>
         <div className="w-[300px] border-2 border-green-500 shadow rounded">
-          <img src={blog4} alt="" className="w-full" />
+          <img src={blog4} alt="" className="w-full h-52" />
           <div className="px-5 py-2">
             <h1 className="font-bold">Best Adventure Spots in Bangladesh</h1>
             <p className="text-sm">
@@ -122,7 +125,7 @@ const Blog = () => {
           </div>
         </div>
         <div className="w-[300px] border-2 border-green-500 shadow rounded">
-          <img src={blog5} alt="" className="w-full" />
+          <img src={blog5} alt="" className="w-full h-52" />
           <div className="px-5 py-2">
             <h1 className="font-bold">Top 5 Hidden Gems in Bangladesh</h1>
             <p className="text-sm">
