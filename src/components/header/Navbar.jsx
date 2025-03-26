@@ -71,7 +71,7 @@ const Navbar = () => {
               </ul>
             </div>
             <a className="btn btn-ghost text-2xl font-semibold  font-sans">
-              {" "}
+          
               <span className="font-semibold"> Travel</span>{" "}
               <span className="font-bold text-blue-500">Desh</span>{" "}
             </a>
@@ -80,16 +80,16 @@ const Navbar = () => {
             <ul className="menu menu-horizontal px-1 text-base">
               <li>
                 
-                 <Link to="/">Home</Link>
+                 <Link to="/" className="font-bold hover:border-b-2 border-[#2B7FFF]">Home</Link>
                   
                 
               </li>
               <li>
                 <details>
-                  <summary>Pages</summary>
-                  <ul className="p-2">
+                  <summary className="font-bold hover:border-b-2 border-[#2B7FFF]">Pages</summary>
+                  <ul className="p-2 bg-gray-200 z-30 ">
                     <li>
-                      <a>Destination</a>
+                      <Link to="/destinations" className="font-bold hover:border-b-2 border-[#2B7FFF]">Destination</Link>
                     </li>
                     <li>
                       <a>About Us</a>
@@ -108,28 +108,28 @@ const Navbar = () => {
               </li>
               <li>
               
-                  <summary>Tour list</summary>
+                  <summary className="font-bold hover:border-b-2 border-[#2B7FFF]">Tour list</summary>
                
               </li>
               <li>
                 
-                  <summary>Room List</summary>
+                  <summary className="font-bold hover:border-b-2 border-[#2B7FFF]">Room List</summary>
                   
               </li>
               <li>
                 
-                  <summary>About Us</summary>
+                  <summary className="font-bold hover:border-b-2 border-[#2B7FFF]">About Us</summary>
                   
               </li>
               <li>
                 
-                  <summary>Blog</summary>
+                  <summary className="font-bold hover:border-b-2 border-[#2B7FFF]">Blog</summary>
                 
               </li>
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="btn btn-soft btn-primary">Login</a>
+            <a className="btn btn-soft text-[#2B7FFF]">Login</a>
           </div>
         </div>
       </div>

@@ -1,6 +1,9 @@
 import React from 'react'
-import { FaArrowRight } from "react-icons/fa";
+
 import { Link } from 'react-router-dom';
+import { FaStar } from "react-icons/fa6";
+
+
 
 
 const PopularPlace = ({data}) => {
@@ -40,8 +43,27 @@ const PopularPlace = ({data}) => {
                    
                      {/* Hover Content */}
                      <div className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/80 space-y-5">
-                       <h2 className="text-xl font-bold">{item.name}</h2>
-                       <h3 className="text-xl font-bold">{item.category}</h3>
+                     <div className='flex justify-between gap-10'>
+                     <h2 className="text-xl font-bold">{item.name}</h2>
+                     <h3 className="text-xl font-bold">{item.category}</h3>
+                     </div>
+                     <div className='flex flex-col items-center text-[#FFFFFF] space-y-3'>
+                      <div className='flex items-center justify-between gap-5  w-full'>
+                      <p>{item.vacation}</p>
+                      <div className='flex text-yellow-500'>
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+
+
+                      </div>
+
+
+                      </div>
+                      <p>{item.price}</p>
+                     </div>
+                      
                        <Link to="/destinations" className="text-sm underline text-[#5C98F2]">
                          View all
                        </Link>

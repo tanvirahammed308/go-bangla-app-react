@@ -6,6 +6,7 @@ import TopAttraction from '../components/home/TopAttraction';
 import HiddenGem from '../components/home/HiddenGem';
 import AllCategory from '../components/home/AllCategory';
 import AllDestinations from '../components/home/AllDestinations';
+import HotelRoom from '../components/home/HotelRoom';
 
 const Home = () => {
   const [data,setData]=useState([]);
@@ -24,12 +25,15 @@ const Home = () => {
       {/*
       <BookedTrip/>
      
-      <TopAttraction data={data}/>
-      <HiddenGem data={data}/>
+      
+      
       <AllCategory data={data}/> */}
        <Hero/>
       <AllDestinations data={data}/>
       <PopularPlace data={data}/>
+      <TopAttraction data={data}/>
+      <HiddenGem data={data}/>
+      <HotelRoom/>
     </div>
   )
 }

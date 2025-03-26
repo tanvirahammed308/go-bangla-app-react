@@ -27,7 +27,7 @@ const AllDestinations = ({ data }) => {
         
       </div>
       <div className="mt-3 grid md:grid-cols-3 justify-center items-center gap-10 mx-0 md:mx-6">
-        {data.slice(0,5).map((item, index) => (
+        {data.slice(0,4).map((item, index) => (
          <div
          key={index}
          className="relative group w-96 h-64 shadow-lg rounded-lg overflow-hidden"

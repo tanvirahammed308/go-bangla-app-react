@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "Hotel Sea Crown",
+      "location": "Cox's Bazar",
+      "address": "Marin Drive Road, Kolatoli Beach, Cox's Bazar",
+      "rating": 4.5,
+      "price_per_night": 75,
+      "amenities": ["Free Wi-Fi", "Swimming Pool", "Beach View", "Breakfast Included"],
+      "contact": "+8801812345678",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/120397166.jpg?k=f475f9705011e7688a17e5798da911afca34b6d2fe44f7e78cc886492f2d29e9&o=&hp=1",
+      "description": "Hotel Sea Crown offers a relaxing stay with stunning beach views, free Wi-Fi, and a swimming pool. Located at Kolatoli Beach in Cox's Bazar, this hotel is perfect for guests looking to enjoy both comfort and the beauty of the coastline."
+    },
+    {
+      "id": 2,
+      "name": "Hotel Agrabad",
+      "location": "Chittagong",
+      "address": "Agrabad Commercial Area, Chittagong",
+      "rating": 4.3,
+      "price_per_night": 100,
+      "amenities": ["Indoor Pool", "Business Center", "Airport Shuttle"],
+      "contact": "+88031251731",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/596829600.jpg?k=147e016475b288f97c3009dae134d78bf7906f01466d0aadcf66a35b78d9e826&o=",
+      "description": "Hotel Agrabad offers a convenient location in the heart of Chittagong's commercial area. It provides excellent business amenities, including a business center, along with an indoor pool and airport shuttle services."
+    },
+   
+    {
+      "id": 3,
+      "name": "InterContinental Dhaka",
+      "location": "Dhaka",
+      "address": "1 Minto Road, Dhaka",
+      "rating": 4.7,
+      "price_per_night": 150,
+      "amenities": ["Free Parking", "Swimming Pool", "Spa", "Business Center"],
+      "contact": "+88029677777",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/328510660.jpg?k=55cab68dd50025e04da44c8a4babe1c72869cb80905628e8f2b3b16e792025b0&o=&hp=1",
+      "description": "InterContinental Dhaka is a premium hotel offering excellent services for both business and leisure travelers. It features a spacious business center, relaxing spa services, and an inviting swimming pool, ensuring a luxurious experience."
+    },
+    {
+      "id": 4,
+      "name": "Rose View Hotel",
+      "location": "Sylhet",
+      "address": "Shahjalal Uposhohor, Sylhet",
+      "rating": 4.2,
+      "price_per_night": 90,
+      "amenities": ["Free Breakfast", "Conference Room", "Swimming Pool"],
+      "contact": "+880821721439",
+      "image": "https://www.roseviewhotel.com/images/banner/01.jpg",
+      "description": "Rose View Hotel provides a perfect blend of comfort and convenience, offering free breakfast and a large conference room ideal for business events. Its swimming pool and warm hospitality make it a great choice for travelers to Sylhet."
+    },
+    {
+      "id": 5,
+      "name": "Hotel The Cox Today",
+      "location": "Cox's Bazar",
+      "address": "Plot 7, Road 2, Hotel Motel Zone, Cox's Bazar",
+      "rating": 4.3,
+      "price_per_night": 85,
+      "amenities": ["Ocean View", "Spa", "Airport Shuttle", "Free Wi-Fi"],
+      "contact": "+88034152150",
+      "image": "https://hotelthecoxtoday.com/img/featured/pool.jpg",
+      "description": "Hotel The Cox Today offers ocean views, a relaxing spa, and convenient access to Cox's Bazar’s beautiful beaches. With free Wi-Fi and an airport shuttle, this hotel caters to both leisure and business travelers."
+    },
+    {
+      "id": 6,
+      "name": "The Peninsula Chittagong",
+      "location": "Chittagong",
+      "address": "Bulbul Center, GEC Circle, Chittagong",
+      "rating": 4.4,
+      "price_per_night": 110,
+      "amenities": ["Rooftop Restaurant", "Fitness Center", "Free Wi-Fi"],
+      "contact": "+88031719900",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/575336200.jpg?k=831c819cc61f199bc3b7ebb144019ec752f49f6dd799acd56ba505fad4d0f5fe&o=&hp=1",
+      "description": "The Peninsula Chittagong is an elegant hotel offering a rooftop restaurant with a spectacular view, a well-equipped fitness center, and free Wi-Fi. It's ideal for both business meetings and leisure trips to Chittagong."
+    },
+    {
+      "id": 7,
+      "name": "Amari Dhaka",
+      "location": "Dhaka",
+      "address": "47 Road No 41, Gulshan-2, Dhaka",
+      "rating": 4.6,
+      "price_per_night": 130,
+      "amenities": ["Rooftop Pool", "Spa", "Fitness Center", "Free Breakfast"],
+      "contact": "+880255059620",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/533410075.jpg?k=50f7d9e564283146b530fc67ed188d976f825b2ab081e3847aba48b7655ca138&o=&hp=1",
+      "description": "Amari Dhaka provides a modern and stylish stay with a rooftop pool, fitness center, and spa. Enjoy a delicious complimentary breakfast and the convenience of being located in the vibrant Gulshan area of Dhaka."
+    },
+    {
+      "id": 8,
+      "name": "Long Beach Hotel",
+      "location": "Cox's Bazar",
+      "address": "14 Kalatoli Road, Hotel Motel Zone, Cox's Bazar",
+      "rating": 4.1,
+      "price_per_night": 80,
+      "amenities": ["Outdoor Pool", "Free Parking", "Fitness Center"],
+      "contact": "+88034151843",
+      "image": "https://longbeachhotelbd.com/wp-content/uploads/2024/02/home-page-image-gallery-02.jpg",
+      "description": "Long Beach Hotel is a great choice for those seeking a budget-friendly yet comfortable stay in Cox's Bazar. It features an outdoor pool, free parking, and a fitness center for guests to enjoy during their stay."
+    },
+    {
+      "id": 9,
+      "name": "Grand Sultan Tea Resort & Golf",
+      "location": "Sylhet",
+      "address": "Sreemangal, Sylhet",
+      "rating": 4.9,
+      "price_per_night": 160,
+      "amenities": ["Golf Course", "Swimming Pool", "Spa", "Kids' Zone"],
+      "contact": "+88086152344",
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/576663823.jpg?k=533d45d44d38f3a00b06481c4634d7e91faace7ba6262d909320798bb5b4f316&o=",
+      "description": "Grand Sultan Tea Resort & Golf offers an exceptional blend of luxury and relaxation, featuring a golf course, spa, swimming pool, and kids' zone. This resort in Sreemangal provides a perfect getaway for both families and golf enthusiasts."
+    },
+    
+    {
+      "id": 10,
+      "name": "Radisson Blu Chattogram Bay View",
+      "location": "Chittagong",
+      "address": "SS Khaled Road, Lalkhan Bazar, Chittagong",
+      "rating": 4.8,
+      "price_per_night": 120,
+      "amenities": ["Free Wi-Fi", "Swimming Pool", "Fitness Center", "Spa", "Airport Shuttle"],
+      "contact": "+88031621100",
+      "image": "https://media.radissonhotels.net/image/radisson-blu-hotel-chattogram-bay-view/exterior/16256-116439-f64873197_4k.jpg?impolicy=GalleryLightboxFullscreen",
+      "description": "Radisson Blu Chattogram Bay View offers a luxurious experience with world-class amenities, including a spa, fitness center, and an airport shuttle. With a stunning view of the bay, this hotel ensures a comfortable and memorable stay."}
+  ]

@@ -1,52 +1,76 @@
 import React from 'react'
 import { FaArrowRight } from 'react-icons/fa'
+import { FaStar } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 
 const HiddenGem = ({data}) => {
 
-    const topAttractionCat=data.filter((item)=>item.category =="Hidden Gems")
+    const hiddenGen=data.filter((item)=>item.category =="Hidden Gems")
   return (
     
-    <div>
-              <div className='flex items-center gap-5 px-5 md:px-0'>
-                <h2 className='capitalize font-bold text-xl my-5 text-green-500   ' >Hidden  Gems
-                
-        
-                </h2>
-                <FaArrowRight />
-        
-              </div>
-              <div className='grid md:grid-cols-4 gap-5 my-10 justify-center px-5 md:px-0'>
-                {
-                  topAttractionCat.map((item)=><Link to={`/${item.id}`}>
-                    
-        
-        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 ">
-          <a href="#">
-            <img className="rounded-t-lg" src={item.image_url} alt />
-          </a>
-          <div className="p-5  ">
-            <div className='flex justify-between'>
-            
-              <h5 className="mb-2  font-bold tracking-tight text-gray-900 dark:text-white">{item.name}</h5>
-           
-              <h5 className="mb-2  font-bold tracking-tight text-gray-900 dark:text-white">{item.type}</h5>
-           
-        
-            </div>
-            <div className=' h-32'>
-        
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 ">{item.description}</p>
-            </div>
-            
-          </div>
+     <div className='mt-20'>
+        <div className="w-full md:w-[1000px] flex flex-col justify-center items-center mx-auto ">
+          <h1 className="text-3xl md:text-5xl">
+          Hidden  <span className="text-[#5C98F2]"> Gem</span>
+          </h1>
+         
         </div>
-        
-        
-                  </Link>)
-                }
-              </div>
-            </div>
+        <div className='grid md:grid-cols-3 gap-5 my-8 justify-center'>
+          {
+            hiddenGen.map((item,index)=><Link to={`/${item.id}`}>
+              
+    
+              <div
+                       key={index}
+                       className="relative group w-96 h-64 shadow-lg rounded-lg overflow-hidden"
+                     >
+                       {/* Background Image */}
+                       <div
+                         className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-110"
+                         style={{
+                           backgroundImage: `url(${item.image_url})`,
+                         }}
+                       ></div>
+                     
+                       {/* Dark Overlay (Becomes Visible on Hover) */}
+                       <div className="absolute inset-0 bg-gray-400 opacity-0 group-hover:bg-opacity-100 transition-all duration-300"></div>
+              
+                     
+                       {/* Hover Content */}
+                       <div className="absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/80 space-y-5">
+                       <div className='flex justify-between gap-10'>
+                       <h2 className="text-xl font-bold">{item.name}</h2>
+                       <h3 className="text-xl font-bold">{item.category}</h3>
+                       </div>
+                       <div className='flex flex-col items-center text-[#FFFFFF] space-y-3'>
+                        <div className='flex items-center justify-between gap-5  w-full'>
+                        <p>{item.vacation}</p>
+                        <div className='flex text-yellow-500'>
+                        <FaStar/>
+                        <FaStar />
+                        <FaStar />
+                        <FaStar />
+    
+    
+                        </div>
+    
+    
+                        </div>
+                        <p>{item.price}</p>
+                       </div>
+                        
+                         <Link to="/destinations" className="text-sm underline text-[#5C98F2]">
+                           View all
+                         </Link>
+                       </div>
+                     </div>
+    
+    
+    
+            </Link>)
+          }
+        </div>
+      </div>
   )
 }
 

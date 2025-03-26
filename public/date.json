@@ -5,6 +5,7 @@
     "type": "Historical Site",
     "location": "Rajshahi Division",
     "category": "Top Attractions",
+    "duration": "2 Days, 3 Nights",
     "description": "Bogura is known for its ancient ruins and archaeological sites, such as Mahasthangarh, one of the most significant archaeological sites in Bangladesh.",
     "attractions": [
       "Mahasthangarh",
@@ -20,6 +21,7 @@
     "name": "Kurigram",
     "type": "Nature",
     "location": "Rangpur Division",
+    "duration": "2 Days, 3 Nights",
     "category": "Hidden Gems",
     "description": "Kurigram offers lush green landscapes, rivers, and the scenic beauty of the Brahmaputra River, making it a hidden gem for nature lovers.",
     "attractions": [
@@ -36,6 +38,7 @@
     "name": "Jatiyo Sangsad Bhaban",
     "type": "Architectural",
     "location": "Dhaka Division",
+    "duration": "4 Days, 3 Nights",
     "category": "Top Attractions",
     "description": "The National Parliament House, designed by architect Louis Kahn, is one of the most iconic buildings in Bangladesh, showcasing modernist architecture.",
     "attractions": [
@@ -51,6 +54,7 @@
     "name": "Ruma",
     "type": "Hill Station",
     "location": "Chittagong Division",
+    "duration": "3 Days, 4 Nights",
     "category": "Popular Places",
     "description": "Ruma is a popular trekking base for exploring the hills and waterfalls of Bandarban, with its proximity to the beautiful Nafakhum and Remakri Waterfalls.",
     "attractions": [
@@ -67,6 +71,7 @@
     "name": "Chhuti Bagan",
     "type": "Nature",
     "location": "Sylhet Division",
+    "duration": "2 Days, 3 Nights",
     "category": "Hidden Gems",
     "description": "Chhuti Bagan is a peaceful tea garden, offering stunning views of Sylhet's hills and tea plantations, making it a popular spot for nature lovers.",
     "attractions": [
@@ -83,6 +88,7 @@
     "name": "Kuakata",
     "type": "Beach",
     "location": "Barisal Division",
+    "duration": "3 Days, 3 Nights",
     "category": "Popular Places",
     "description": "Kuakata, known as the 'Daughter of the Sea,' offers both sunrise and sunset views on its long sandy beach.",
     "attractions": [
@@ -99,6 +105,7 @@
     "name": "Patuakhali",
     "type": "Beach",
     "location": "Barisal Division",
+    "duration": "4 Days, 3 Nights",
     "category": "Top Attractions",
     "description": "Patuakhali is known for its serene beaches and natural beauty, offering a peaceful escape from the hustle and bustle of the city.",
     "attractions": [
@@ -115,6 +122,7 @@
     "name": "Lalbagh Fort",
     "type": "Historical Site",
     "location": "Dhaka Division",
+    "duration": "1 Day",
     "category": "Popular Places",
     "description": "Lalbagh Fort is a 17th-century Mughal fort complex, rich in history and architecture, located in the heart of Dhaka.",
     "attractions": [
@@ -314,7 +322,7 @@
         "Tribal Culture"
       ],
       "best_time_to_visit": "October to March",
-      "image_url": "https://media.gettyimages.com/id/975972152/photo/kaptai-lake.jpg?s=612x612&w=0&k=20&c=DNzFU8s7gfl4AGGcD1xeoIdN7SdE3RHwFb31smGDcfw=",
+      "image_url":  "https://media.gettyimages.com/id/975972152/photo/kaptai-lake.jpg?s=612x612&w=0&k=20&c=DNzFU8s7gfl4AGGcD1xeoIdN7SdE3RHwFb31smGDcfw=",
       "price": "1000 BDT"
 }
 ]
