@@ -1,58 +1,118 @@
-import React from 'react'
+import React from "react";
 
-import hero1 from "../../assets/img/hero1.jpg"
-import hero2 from "../../assets/img/hero2.jpg"
-import hero3 from "../../assets/img/hero3.jpg"
-import hero4 from "../../assets/img/hero4.jpg"
 const Hero = () => {
   return (
-    <div className=' relative'>
-        <div className="carousel w-full my-8 rounded">
-  <div id="slide1" className="carousel-item relative w-full h-[300px] md:h-[450px] ">
-    <img
-      src={hero1}
-      className="w-full " />
-    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between z-30">
-      <a href="#slide4" className="btn btn-circle ">❮</a>
-      <a href="#slide2" className="btn btn-circle ">❯</a>
-    </div>
-  </div>
-  <div id="slide2" className="carousel-item relative w-full  h-[300px] md:h-[450px]">
-    <img
-      src={hero2}
-      className="w-full" />
-    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between z-30">
-      <a href="#slide1" className="btn btn-circle ">❮</a>
-      <a href="#slide3" className="btn btn-circle ">❯</a>
-    </div>
-  </div>
-  <div id="slide3" className="carousel-item relative w-full  h-[300px] md:h-[450px]">
-    <img
-      src={hero3}
-      className="w-full" />
-    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between z-30">
-      <a href="#slide2" className="btn btn-circle">❮</a>
-      <a href="#slide4" className="btn btn-circle">❯</a>
-    </div>
-  </div>
-  <div id="slide4" className="carousel-item relative w-full  h-[300px] md:h-[450px]">
-    <img
-      src={hero4}
-      className="w-full" />
-    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between z-30">
-      <a href="#slide3" className="btn btn-circle">❮</a>
-      <a href="#slide1" className="btn btn-circle">❯</a>
-    </div>
-  </div>
-</div>
-<div className='w-[400px]  md:w-[580px] bg-white/70 mx-auto px-2 md:px-3 py-2  rounded text-center absolute bottom-23 md:bottom-40 left-[20px] md:left-[350px] shadow-2xl  text-gray-700 '>
-  
-  <p className='font-normal md:font-medium'>Discover the beauty of Bangladesh like never before! From the golden beaches of Cox’s Bazar to the serene tea gardens of Sylhet, let GoBangla be your guide to unforgettable adventures. Start your journey today!</p>
-  <h1 className='text-red-600 font-semibold md:font-bold'>GoBangla – <span className='text-green-600'>Unlock the Beauty of Bangladesh!</span> </h1>
-  <button className="btn btn-outline  capitalize my-2 text-green-600">explore more</button>
-</div>
-    </div>
-  )
-}
+    <div>
+      <div className="">
+        <div>
+          <div className="hero min-h-screen">
+            <div className="hero-content flex-col items-start lg:flex-row-reverse">
+              {/* Carousel Container */}
+              <div className="h-[580px] lg:h-[700px] w-[400px] lg:w-[600px] mx-auto overflow-hidden rounded-lg">
+                <div className="carousel carousel-vertical h-full w-full">
+                  <div className="carousel-item w-full h-full">
+                    <img
+                      className="w-full h-full object-cover"
+                      src="https://images.pexels.com/photos/7024485/pexels-photo-7024485.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                      alt="Image 1"
+                    />
+                  </div>
 
-export default Hero
+                  <div className="carousel-item w-full h-full">
+                    <img
+                      className="w-full h-full object-cover"
+                      src="https://images.pexels.com/photos/906531/pexels-photo-906531.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                      alt="Image 2"
+                    />
+                  </div>
+
+                  <div className="carousel-item w-full h-full">
+                    <img
+                      className="w-full h-full object-cover"
+                      src="https://images.pexels.com/photos/17510046/pexels-photo-17510046/free-photo-of-man-on-boat-with-sail-on-lake.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                      alt="Image 3"
+                    />
+                  </div>
+
+                  <div className="carousel-item w-full h-full">
+                    <img
+                      className="w-full h-full object-cover"
+                      src="https://images.unsplash.com/photo-1606407171179-04f350518a27?w=1200&auto=format&fit=crop&q=60"
+                      alt="Image 4"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              {/* Hero Text Content */}
+              <div className="py-20">
+                <h1 className="text-2xl font-sans font-semibold py-3 text-blue-400">
+                  Book with us!
+                </h1>
+                <h1 className="text-6xl lg:text-8xl font-bold font-dmSans">
+                  Find Next Place To{" "}
+                  <span className="text-blue-400">Visit </span>
+                </h1>
+                <p className="py-6 text-xl text-[#8C91A1]">
+                  Explore Bangladesh's rich culture, scenic landscapes, historic
+                  sites, and vibrant cities for an unforgettable journey.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+
+          <div className="block md:flex  items-center gap-1 justify-between bg-white p-6 rounded-2xl shadow-lg  max-w-4xl -my-16 lg:mx-15 static lg:relative lg:-my-60 font-sans">
+ 
+
+
+            {/* Destination Dropdown */}
+            <div className="flex flex-col lg:mx-4 -mx-1  w-full">
+              <label className="text-gray-600 mb-1">From</label>
+              <select className="border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-400 ">
+                <option>Select</option>
+                <option>Cox's Bazar</option>
+                <option>Shylet</option>
+                <option>Sajek</option>
+                <option>Chittagong</option>
+              </select>
+            </div>
+
+{/* 
+            Destination Dropdown */}
+            <div className="flex flex-col lg:mx-4 -mx-1  w-full">
+              <label className="text-gray-600 mb-1">Destination</label>
+              <select className="border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-400 ">
+                <option>Select</option>
+                <option>Cox's Bazar</option>
+                <option>Shylet</option>
+                <option>Sajek</option>
+                <option>Chittagong</option>
+              </select>
+            </div>
+
+            {/* Duration Dropdown */}
+            <div className="flex flex-col lg:mx-4 -mx-1 w-full">
+              <label className="text-gray-600 mb-1">Duration</label>
+              <select className="border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-400">
+                <option>Select</option>
+                <option>2-4 Days Tour</option>
+                <option>5-7 Days Tour</option>
+                <option>8+ Days Tour</option>
+              </select>
+            </div>
+
+            {/* Search Button */}
+           <div className="mt-5">
+           <button className="bg-blue-500  hover:bg-blue-600  text-white lg:px-10 lg:py-3 px-4 py-2 mx-2 rounded-md flex items-center">
+              <span className="hidden lg:block">🔍 </span> Search 
+            </button>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;

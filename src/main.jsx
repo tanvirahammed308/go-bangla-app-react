@@ -7,6 +7,12 @@ import { RouterProvider } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <div className='bg-[#FFFFFF]'>
+      <div className='container mx-auto dm-serif-display-regular'>
+      <RouterProvider router={router} />
+      </div>
+
+    </div>
+   
   </StrictMode>,
 )

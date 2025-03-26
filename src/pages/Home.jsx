@@ -5,6 +5,7 @@ import PopularPlace from '../components/home/PopularPlace';
 import TopAttraction from '../components/home/TopAttraction';
 import HiddenGem from '../components/home/HiddenGem';
 import AllCategory from '../components/home/AllCategory';
+import AllDestinations from '../components/home/AllDestinations';
 
 const Home = () => {
   const [data,setData]=useState([]);
@@ -19,13 +20,16 @@ const Home = () => {
     })
   },[])
   return (
-    <div className='container mx-auto'>
-      <Hero/>
+    <div >
+      {/*
       <BookedTrip/>
-      <PopularPlace data={data}/>
+     
       <TopAttraction data={data}/>
       <HiddenGem data={data}/>
-      <AllCategory data={data}/>
+      <AllCategory data={data}/> */}
+       <Hero/>
+      <AllDestinations data={data}/>
+      <PopularPlace data={data}/>
     </div>
   )
 }
