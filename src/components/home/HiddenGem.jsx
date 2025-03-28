@@ -44,7 +44,7 @@ const HiddenGem = ({data}) => {
                        </div>
                        <div className='flex flex-col items-center text-[#FFFFFF] space-y-3'>
                         <div className='flex items-center justify-between gap-5  w-full'>
-                        <p>{item.vacation}</p>
+                        <p>{item.duration}</p>
                         <div className='flex text-yellow-500'>
                         <FaStar/>
                         <FaStar />
@@ -70,6 +70,16 @@ const HiddenGem = ({data}) => {
             </Link>)
           }
         </div>
+        <div className='flex justify-center'>
+                <Link to="/destinations">
+                <button className="btn  border-2 border-b-[#5C98F2] text-[#5C98F2]">See All
+              <FaArrowRight />
+        
+              </button>
+                </Link>
+              
+        
+              </div>
       </div>
   )
 }

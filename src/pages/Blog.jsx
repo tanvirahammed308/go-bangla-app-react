@@ -9,7 +9,7 @@ const Blog = () => {
   return (
     <div className="container mx-auto my-10">
       <div
-        className="hero min-h-screen "
+        className="hero "
         style={{
           backgroundImage: `url(${blog})`,
           backgroundSize: "cover",
@@ -20,9 +20,9 @@ const Blog = () => {
         <div className="hero-overlay"></div>
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">
-              <span className="text-red-500">Go</span>
-              <span className="text-green-500"> Bangla</span> Blogs
+            <h1 className="mb-5 text-4xl font-bold">
+              <span className="text-black">Travel</span>
+              <span className="text-[#2B9BF6]"> Bangla</span> Blogs
             </h1>
             <p className="mb-5 font-bold">
               Get the latest travel tips, guides, and inspiration to explore the
@@ -32,7 +32,7 @@ const Blog = () => {
         </div>
       </div>
       <div className="my-10 grid md:grid-cols-4 gap-2 justify-center">
-        <div className="w-[300px] border-2 border-green-500 shadow rounded">
+        <div className="w-[300px] border-2 border-[#2B9BF6] shadow rounded">
           <img src={blog1} alt="" className="w-full h-52" />
           <div className="px-5 py-2">
             <h1 className="font-bold">Top 5 Must-Visit Places in Sylhet</h1>
@@ -48,13 +48,13 @@ const Blog = () => {
               <li>Madhabkunda Waterfall</li>
               <li>Bisnakandi</li>
             </ul>
-            <small className="text-emerald-500">
+            <small className="text-[#2B9BF6]">
               Sylhet offers a perfect mix of adventure and relaxation. Plan your
               trip today!
             </small>
           </div>
         </div>
-        <div className="w-[300px] border-2 border-green-500 shadow rounded">
+        <div className="w-[300px] border-2 border-[#2B9BF6] shadow rounded">
           <img src={blog2} alt="" className="w-full h-52" />
           <div className="px-5 py-2">
             <h1 className="font-bold">A Weekend Getaway in Cox’s Bazar</h1>
@@ -70,12 +70,12 @@ const Blog = () => {
               <li>Radiant Fish World</li>
               <li>Saint Martin's Island</li>
             </ul>
-            <small className="text-emerald-500">
+            <small className="text-[#2B9BF6]">
               Want a perfect beach vacation? Cox’s Bazar is waiting for you!
             </small>
           </div>
         </div>
-        <div className="w-[300px] border-2 border-green-500 shadow rounded">
+        <div className="w-[300px] border-2 border-[#2B9BF6] shadow rounded">
           <img src={blog3} alt="" className="w-full h-52" />
           <div className="px-5 py-2">
             <h1 className="font-bold">
@@ -95,12 +95,12 @@ const Blog = () => {
                 <li>Mahasthangarh</li>
               </ul>
             </ul>
-            <small className="text-emerald-500">
+            <small className="text-[#2B9BF6]">
               Explore the history and flavors of Rajshahi on your next trip!
             </small>
           </div>
         </div>
-        <div className="w-[300px] border-2 border-green-500 shadow rounded">
+        <div className="w-[300px] border-2 border-[#2B9BF6] shadow rounded">
           <img src={blog4} alt="" className="w-full h-52" />
           <div className="px-5 py-2">
             <h1 className="font-bold">Best Adventure Spots in Bangladesh</h1>
@@ -118,13 +118,13 @@ const Blog = () => {
                 <li>Tanguar Haor (Sunamganj)</li>
               </ul>
             </ul>
-            <small className="text-emerald-500">
+            <small className="text-[#2B9BF6]">
               Ready for an adrenaline rush? These adventure spots are calling
               you
             </small>
           </div>
         </div>
-        <div className="w-[300px] border-2 border-green-500 shadow rounded">
+        <div className="w-[300px] border-2 border-[#2B9BF6] shadow rounded">
           <img src={blog5} alt="" className="w-full h-52" />
           <div className="px-5 py-2">
             <h1 className="font-bold">Top 5 Hidden Gems in Bangladesh</h1>
@@ -143,7 +143,7 @@ const Blog = () => {
                 <li>Kuakata Sea Beach</li>
               </ul>
             </ul>
-            <small className="text-emerald-500">
+            <small className="text-[#2B9BF6]">
               Looking for unique travel experiences? Discover these hidden
               treasures!
             </small>

@@ -5,6 +5,7 @@ import { FcRating } from 'react-icons/fc'
 import { IoIosHome } from 'react-icons/io'
 import { RiHotelBedFill } from 'react-icons/ri'
 import { VscAdd } from 'react-icons/vsc'
+import { Link } from 'react-router-dom'
 
 const HotelRoom = () => {
     const [hotel, setHotel] = useState([])
@@ -16,7 +17,7 @@ const HotelRoom = () => {
     },[])
 
   return (
-    <div className="">
+    <div className="mt-10">
         <div className="w-full md:w-[1000px] flex flex-col justify-center items-center mx-auto ">
           <h1 className="text-3xl md:text-5xl">
           Hotel  <span className="text-[#5C98F2]"> Rooms</span>
@@ -64,10 +65,11 @@ const HotelRoom = () => {
 
                </div>
                
-       
-               <button className="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition duration-200 active:bg-blue-800  ">
-                 RESERVE
-               </button>
+       <Link to={`/hoteldetail/${hotel.id}`}>
+       <button className="btn border-2 border-b-[#5C98F2] mt-4 w-full text-[#5C98F2]">Book Now</button>
+       </Link>
+               
+
              </div>
            </div>
           ))}

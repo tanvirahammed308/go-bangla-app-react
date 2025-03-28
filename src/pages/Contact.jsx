@@ -5,17 +5,17 @@ const Contact = () => {
   return (
     <div className="container mx-auto my-5 ">
       <div
-        className="hero min-h-screen "
+        className="hero  "
         style={{
           backgroundImage: `url(${contact})`,
         }}
       >
-        <div className="hero-overlay"></div>
+        <div className="hero-overlay bg-gray-500/40 "></div>
         <div className="hero-content text-neutral-content text-center">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">
-              Get in Touch with <span className="text-red-500">Go</span>
-                <span className="text-green-500">  Bangla</span>
+          <div className="">
+            <h1 className="mb-5 text-4xl font-bold ">
+              Get in Touch with <span className="text-black">Travel</span>
+                <span className="text-[#2B7FFF]"> Desh</span>
             </h1>
             <p className="mb-5 font-bold">
               We'd love to hear from you. Whether you have questions or need
@@ -28,7 +28,7 @@ const Contact = () => {
 
       <div className="my-10">
         <div className="flex  justify-center">
-          <h1 className="font-bold text-center text-2xl border-b-4 w-48 border-green-500 capitalize">
+          <h1 className="font-bold text-center text-2xl border-b-4 w-48 border-[#2B7FFF] capitalize">
             Contact with us
           </h1>
         </div>
@@ -42,33 +42,33 @@ const Contact = () => {
             <div className="shadow p-4 rounded">
               <h1 className="font-bold text-2xl">Head Office (Dhaka)</h1>
               <p>
-                GoBangla Travels House # 123, Road # 5, Block B, Banani, Dhaka
+                Travel Desh Travels House # 123, Road # 5, Block B, Banani, Dhaka
                 1213, Bangladesh
               </p>
             </div>
             <div className="shadow p-4 rounded">
               <h1 className="font-bold text-2xl">Chittagong Office</h1>
               <p>
-                GoBangla Level 4, City Center, Sadarghat Road, Chittagong 4000,
+                Travel Desh Level 4, City Center, Sadarghat Road, Chittagong 4000,
                 Bangladesh
               </p>
             </div>
             <div className="shadow p-4 rounded">
               <h1 className="font-bold text-2xl">Rajshahi Office</h1>
-              <p>GoBangla Old Bus Stand Road, Rajshahi 6000, Bangladesh</p>
+              <p>Travel Desh Old Bus Stand Road, Rajshahi 6000, Bangladesh</p>
             </div>
             <div className="shadow p-4 rounded">
               <h1 className="font-bold text-2xl">Sylhet Office</h1>
               <p>
-                GoBangla Main Road, Jame Masjid Market, Sylhet 3100, Bangladesh
+                Travel Desh Main Road, Jame Masjid Market, Sylhet 3100, Bangladesh
               </p>
             </div>
           </div>
         </div>
 
-        <div className="hero bg-base-200 min-h-screen">
+        <div className="hero bg-base-200 ">
           <div className="hero-content flex flex-col">
-            <h1 className="font-bold text-center text-2xl border-b-4 w-[350px] border-green-500 capitalize ">
+            <h1 className="font-bold text-center text-2xl border-b-4 w-[350px] border-[#2B7FFF] capitalize ">
               Leave us a message
             </h1>
 
@@ -103,7 +103,7 @@ const Contact = () => {
                     placeholder="Bio"
                   ></textarea>
 
-                  <button className="btn border-2 border-green-600 mt-4 w-40 mx-auto">
+                  <button className="btn border-2 border-[#2B7FFF] mt-4 w-40 mx-auto">
                     Send
                   </button>
                 </fieldset>

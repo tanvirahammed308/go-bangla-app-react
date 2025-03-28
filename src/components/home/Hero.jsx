@@ -3,9 +3,8 @@ import React from "react";
 const Hero = () => {
   return (
     <div>
-      <div className="">
-        <div>
-          <div className="hero min-h-screen">
+      
+          <div className="hero">
             <div className="hero-content flex-col items-start lg:flex-row-reverse">
               {/* Carousel Container */}
               <div className="h-[580px] lg:h-[700px] w-[400px] lg:w-[600px] mx-auto overflow-hidden rounded-lg">
@@ -110,8 +109,7 @@ const Hero = () => {
            </div>
           </div>
         </div>
-      </div>
-    </div>
+      
   );
 };
 

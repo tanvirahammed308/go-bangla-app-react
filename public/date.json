@@ -53,7 +53,7 @@
     "id": 4,
     "name": "Ruma",
     "type": "Hill Station",
-    "location": "Chittagong Division",
+    "location": "Chattogram Division",
     "duration": "3 Days, 4 Nights",
     "category": "Popular Places",
     "description": "Ruma is a popular trekking base for exploring the hills and waterfalls of Bandarban, with its proximity to the beautiful Nafakhum and Remakri Waterfalls.",
@@ -139,6 +139,7 @@
     "name": "Shat Gombuj Mosque",
     "type": "Historical Site",
     "location": "Khulna Division",
+    "duration": "1 Day",
     "category": "Top Attractions",
     "description": "A UNESCO World Heritage site, the Shat Gombuj Mosque is an architectural masterpiece from the Sultanate period with 77 domes.",
     "attractions": [
@@ -154,6 +155,7 @@
     "name": "Pondit Bazar",
     "type": "Cultural",
     "location": "Rajshahi Division",
+    "duration": "2 Days ,1 Night",
     "category": "Hidden Gems",
     "description": "Pondit Bazar is an important cultural hub of Rajshahi, known for its vibrant local markets, heritage, and architecture.",
     "attractions": [
@@ -170,6 +172,7 @@
       "name": "Cox's Bazar",
       "type": "Beach",
       "location": "Chattogram Division",
+      "duration": "3 Days ,2 Night",
       "category": "Top Attractions",
       "description": "Cox's Bazar is famous for having the longest natural sandy sea beach in the world, stretching over 120 km.",
       "attractions": [
@@ -186,6 +189,7 @@
       "name": "Saint Martin's Island",
       "type": "Island",
       "location": "Chattogram Division",
+      "duration": "3 Days ,3 Night",
       "category": "Nature & Adventure",
       "description": "The only coral island in Bangladesh, known for its crystal-clear waters and natural beauty.",
       "attractions": [
@@ -202,6 +206,7 @@
       "name": "Paharpur Vihara",
       "type": "Archaeological Site",
       "location": "Rajshahi Division",
+      "duration": "2 Days ,1 Night",
       "category": "Popular Places",
       "description": "Paharpur Vihara is one of the largest Buddhist monasteries south of the Himalayas, dating back to the 8th century.",
       "attractions": [
@@ -218,6 +223,7 @@
       "name": "Sonargaon",
       "type": "Historical Site",
       "location": "Dhaka Division",
+      "duration": "1 Days ,1 Night",
       "category": "Top Attractions",
       "description": "An ancient capital of Bengal, Sonargaon features historic buildings, including the Folk Art and Craft Museum.",
       "attractions": [
@@ -234,6 +240,7 @@
       "name": "Rangamati",
       "type": "Hill District",
       "location": "Chattogram Division",
+      "duration": "2 Days ,1 Night",
       "category": "Nature & Adventure",
       "description": "Rangamati is known for its picturesque landscapes, including Kaptai Lake and indigenous culture.",
       "attractions": [
@@ -250,6 +257,7 @@
       "name": "Tanguar Haor",
       "type": "Wetland",
       "location": "Mymensingh Division",
+      "duration": "1 Day ",
       "category": "Nature & Adventure",
       "description": "A large wetland area known for birdwatching and natural beauty.",
       "attractions": [
@@ -266,6 +274,7 @@
       "name": "Jaflong",
       "type": "Hill Station",
       "location": "Sylhet Division",
+      "duration": "2 Days ,1 Night",
       "category": "Nature & Adventure",
       "description": "Famous for its tea gardens, rolling hills, and scenic views of the Meghalaya hills.",
       "attractions": [
@@ -282,6 +291,7 @@
       "name": "Bagerhat",
       "type": "Historical Site",
       "location": "Khulna Division",
+      "duration": "2 Days ,1 Night",
       "category": "Popular Places",
       "description": "Known for the historic Sixty Dome Mosque, a UNESCO World Heritage site.",
       "attractions": [
@@ -298,6 +308,7 @@
       "name": "Khagrachari",
       "type": "Hill Station",
       "location": "Chattogram Division",
+      "duration": "3 Days ,2 Night",
       "category": "Nature & Adventure",
       "description": "A beautiful hill district known for its scenic beauty, waterfalls, and natural resources.",
       "attractions": [
@@ -314,6 +325,7 @@
       "name": "Kaptai Lake",
       "type": "Lake",
       "location": "Chattogram Division",
+      "duration": "2 Days ,2 Night",
       "category": "Nature & Adventure",
       "description": "The largest lake in Bangladesh, known for its scenic beauty and surrounding hills.",
       "attractions": [
@@ -324,5 +336,146 @@
       "best_time_to_visit": "October to March",
       "image_url":  "https://media.gettyimages.com/id/975972152/photo/kaptai-lake.jpg?s=612x612&w=0&k=20&c=DNzFU8s7gfl4AGGcD1xeoIdN7SdE3RHwFb31smGDcfw=",
       "price": "1000 BDT"
+},
+{
+  "id": 21,
+  "name": "Ahsan Manzil",
+  "type": "Historical Site",
+  "location": "Dhaka Division",
+  "duration": "1 Day",
+  "category": "Top Attractions",
+  "description": "Ahsan Manzil, also known as the Pink Palace, was the residence of the Nawab of Dhaka and is one of the most iconic landmarks in Dhaka.",
+  "attractions": [
+    "Ahsan Manzil Museum",
+    "Nawab's Palace",
+    "Riverfront View"
+  ],
+  "best_time_to_visit": "October to March",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Ahsan_Manzil-Front_View.jpg",
+  "price": "200 BDT"
+},
+{
+  "id": 22,
+  "name": "Dinajpur",
+  "type": "Nature",
+  "location": "Rangpur Division",
+  "duration": "2 Days, 2 Nights",
+  "category": "Hidden Gems",
+  "description": "Dinajpur is known for its lush green fields, peaceful rural life, and the magnificent Kantaji Temple, making it an ideal destination for nature enthusiasts.",
+  "attractions": [
+    "Kantaji Temple",
+    "Ramsagar National Park",
+    "Dinajpur Rajbari"
+  ],
+  "best_time_to_visit": "October to March",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Kantaji_Temple_Dinajpur_Bangladesh_%2812%29.JPG",
+  "price": "1200 BDT"
+},
+{
+  "id": 23,
+  "name": "Rangpur",
+  "type": "Nature",
+  "location": "Rangpur Division",
+  "duration": "3 Days, 2 Nights",
+  "category": "Hidden Gems",
+  "description": "Rangpur is a perfect getaway with its rivers, scenic countryside, and historical sites, providing a peaceful escape for nature lovers.",
+  "attractions": [
+    "Teesta Barrage",
+    "Rangpur Zoo",
+    "Bagheshwar Temple"
+  ],
+  "best_time_to_visit": "October to March",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/River_Teesta%2C_Siliguri%2C_West_Bengal%2C_India_09032019.jpg",
+  "price": "1300 BDT"
+},
+{
+  "id": 24,
+  "name": "Kurigram",
+  "type": "Nature",
+  "location": "Rangpur Division",
+  "duration": "2 Days, 3 Nights",
+  "category": "Hidden Gems",
+  "description": "Kurigram offers lush green landscapes, rivers, and the scenic beauty of the Brahmaputra River, making it a hidden gem for nature lovers.",
+  "attractions": [
+    "Brahmaputra River",
+    "Sadar Upazila",
+    "Kurigram Museum"
+  ],
+  "best_time_to_visit": "October to March",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Chandamari_mosqu1.jpg",
+  "price": "1500 BDT"
+},
+{
+  "id": 25,
+  "name": "Foy's Lake",
+  "type": "Lake",
+"location": "Chattogram Division",
+  "duration": "1 Day",
+  "category": "Nature & Adventure",
+  "description": "Foy's Lake is a man-made lake surrounded by hills, offering boat rides and scenic views in the heart of Chittagong city.",
+  "attractions": [
+    "Boating",
+    "Theme Park",
+    "Scenic Views"
+  ],
+  "best_time_to_visit": "November to March",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Foy%27s_Lake_2_by_Rahat.jpg",
+  "price": "1200 BDT"
+},
+{
+  "id": 26,
+  "name": "Zia Memorial Museum",
+  "type": "Museum",
+  "location": "Chattogram Division",
+  "duration": "1 Day",
+  "category": "Historical",
+  "description": "The Zia Memorial Museum is dedicated to the life and legacy of former President Ziaur Rahman, offering insights into Bangladesh's history.",
+  "attractions": [
+    "Historical Artifacts",
+    "Museum Tour",
+    "Zia Memorial"
+  ],
+  "best_time_to_visit": "October to March",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Zia_Museum_001.JPG",
+  "price": "800 BDT"
+},
+{
+  "id": 27,
+  "name": "Hakaluki Haor",
+  "type": "Wetland",
+  "location": "Mymensingh Division",
+  "duration": "1 Day",
+  "category": "Nature & Adventure",
+  "description": "Hakaluki Haor is one of the largest wetlands in Bangladesh, known for its rich biodiversity, including migratory birds and aquatic life.",
+  "attractions": [
+    "Birdwatching",
+    "Fishing",
+    "Boat Tours"
+  ],
+  "best_time_to_visit": "November to March",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Hakaluki_Hawor_in_Dry_Season_Sylhet_Bangladesh.JPG",
+  "price": "1700 BDT"
+},
+{
+  "id": 28,
+  "name": "Jaflong",
+  "type": "Hill Station",
+  "location": "Mymensingh Division",
+  "duration": "2 Days, 1 Night",
+  "category": "Nature & Adventure",
+  "description": "Jaflong is a beautiful hill station famous for its tea gardens, scenic landscapes, and stunning views of the Meghalaya hills.",
+  "attractions": [
+    "Tea Gardens",
+    "River Walks",
+    "Hiking"
+  ],
+  "best_time_to_visit": "October to February",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Zero_Point_at_Zuflong.jpg",
+  "price": "2000 BDT"
 }
+
+
+
+
+
 ]

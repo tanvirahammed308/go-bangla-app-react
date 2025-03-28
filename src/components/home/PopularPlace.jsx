@@ -2,6 +2,8 @@ import React from 'react'
 
 import { Link } from 'react-router-dom';
 import { FaStar } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa6";
+
 
 
 
@@ -49,7 +51,7 @@ const PopularPlace = ({data}) => {
                      </div>
                      <div className='flex flex-col items-center text-[#FFFFFF] space-y-3'>
                       <div className='flex items-center justify-between gap-5  w-full'>
-                      <p>{item.vacation}</p>
+                      <p>{item.duration}</p>
                       <div className='flex text-yellow-500'>
                       <FaStar />
                       <FaStar />
@@ -64,8 +66,8 @@ const PopularPlace = ({data}) => {
                       <p>{item.price}</p>
                      </div>
                       
-                       <Link to="/destinations" className="text-sm underline text-[#5C98F2]">
-                         View all
+                       <Link to={`/destinations/${item.id}`} className="text-sm underline text-[#5C98F2]">
+                         View Details
                        </Link>
                      </div>
                    </div>
@@ -74,6 +76,16 @@ const PopularPlace = ({data}) => {
 
           </Link>)
         }
+      </div>
+      <div className='flex justify-center'>
+        <Link to="/destinations">
+        <button className="btn  border-2 border-b-[#5C98F2] text-[#5C98F2]">See All
+      <FaArrowRight />
+
+      </button>
+        </Link>
+      
+
       </div>
     </div>
   )

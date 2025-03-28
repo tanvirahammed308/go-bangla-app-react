@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "Sundarbans Adventure Tour",
+      "location": "Khulna - Sundarbans",
+      "duration": "3 Days, 2 Nights",
+      "price": 12000,
+      "category": "AdventureTour",
+      "includes": ["Boat Safari", "Accommodation", "Meals", "Guide Service"]
+    },
+    {
+      "id": 2,
+      "name": "Cox’s Bazar Beach Holiday",
+      "location": "Cox’s Bazar",
+      "duration": "3 Days, 2 Nights",
+      "price": 8500,
+      "category": "BeachTour",
+      "includes": ["Hotel Stay", "Beach Activities", "Breakfast"]
+    },
+    {
+      "id": 3,
+      "name": "Saint Martin Island Tour",
+      "location": "Saint Martin’s Island",
+      "duration": "3 Days, 2 Nights",
+      "price": 10000,
+      "category": "BeachTour",
+      "includes": ["Ship Ticket", "Beach Resort", "Snorkeling", "Seafood Dinner"]
+    },
+    {
+      "id": 4,
+      "name": "Sylhet Tea Garden & Jaflong Tour",
+      "location": "Sylhet",
+      "duration": "2 Days, 1 Night",
+      "price": 7500,
+      "category": "NatureTour",
+      "includes": ["Tea Garden Visit", "Boat Trip to Jaflong", "Hotel Stay"]
+    },
+    {
+      "id": 5,
+      "name": "Sajek Valley Hill Trip",
+      "location": "Sajek Valley, Rangamati",
+      "duration": "2 Days, 1 Night",
+      "price": 6500,
+      "category": "HillTour",
+      "includes": ["Jeep Ride", "Cottage Stay", "Campfire Night"]
+    },
+    {
+      "id": 6,
+      "name": "Bandarban Adventure Tour",
+      "location": "Bandarban",
+      "duration": "3 Days, 2 Nights",
+      "price": 9000,
+      "category": "AdventureTour",
+      "includes": ["Hiking", "Nilgiri & Nafakhum Visit", "Tribal Village Tour"]
+    },
+    {
+      "id": 7,
+      "name": "Kuakata Sea Beach Tour",
+      "location": "Kuakata",
+      "duration": "3 Days, 2 Nights",
+      "price": 8000,
+      "category": "BeachTour",
+      "includes": ["Beach Walk", "Sunset & Sunrise View", "Hotel Stay"]
+    },
+    {
+      "id": 8,
+      "name": "Rangamati & Kaptai Lake Tour",
+      "location": "Rangamati",
+      "duration": "2 Days, 1 Night",
+      "price": 7000,
+      "category": "HillTour",
+      "includes": ["Boat Trip on Kaptai Lake", "Hanging Bridge Visit", "Tribal Food Experience"]
+    },
+    {
+      "id": 9,
+      "name": "Srimangal & Lawachara Rainforest Tour",
+      "location": "Srimangal",
+      "duration": "2 Days, 1 Night",
+      "price": 7500,
+      "category": "NatureTour",
+      "includes": ["Lawachara Forest Visit", "7-Layer Tea Tasting", "Tribal Culture Tour"]
+    },
+    {
+      "id": 10,
+      "name": "Paharpur & Mahasthangarh Heritage Tour",
+      "location": "Bogura - Naogaon",
+      "duration": "3 Days, 2 Nights",
+      "price": 11000,
+      "category": "HeritageTour",
+      "includes": ["Archaeological Site Visit", "Museum Tour", "Historical Guide"]
+    }
+  ]
+  
