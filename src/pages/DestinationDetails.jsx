@@ -66,7 +66,7 @@ const DestinationDetails = () => {
               <img
                 src={data.image_url}
                 alt=""
-                className="w-full h-96 rounded-md"
+                className="w-full h-64 md:h-96 rounded-md"
               />
             </div>
             <div className="mt-8">

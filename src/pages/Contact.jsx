@@ -3,9 +3,9 @@ import contact from "../assets/img/contact.jpg";
 
 const Contact = () => {
   return (
-    <div className="container mx-auto my-5 ">
+    <div className="container mx-auto my-5 px-2 ">
       <div
-        className="hero  "
+        className="hero "
         style={{
           backgroundImage: `url(${contact})`,
         }}
@@ -13,7 +13,7 @@ const Contact = () => {
         <div className="hero-overlay bg-gray-500/40 "></div>
         <div className="hero-content text-neutral-content text-center">
           <div className="">
-            <h1 className="mb-5 text-4xl font-bold ">
+            <h1 className="mb-5 text-3xl md:text-4xl font-bold ">
               Get in Touch with <span className="text-black">Travel</span>
                 <span className="text-[#2B7FFF]"> Desh</span>
             </h1>
@@ -68,7 +68,7 @@ const Contact = () => {
 
         <div className="hero bg-base-200 ">
           <div className="hero-content flex flex-col">
-            <h1 className="font-bold text-center text-2xl border-b-4 w-[350px] border-[#2B7FFF] capitalize ">
+            <h1 className="font-bold text-center text-2xl border-b-4 w-full md:w-[350px] border-[#2B7FFF] capitalize ">
               Leave us a message
             </h1>
 

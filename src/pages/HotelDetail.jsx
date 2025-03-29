@@ -29,7 +29,7 @@ const HotelDetail = () => {
             {/* left side */}
             <div className=" w-full md:w-8/12 py-5 px-5 shadow-2xl">
               <div>
-                <h1 className="text-4xl my-2">{data.name}</h1>
+                <h1 className="text-2xl md:text-4xl my-2">{data.name}</h1>
                 <div className="flex flex-wrap items-center gap-5 md:gap-10 mt-3">
                   <p>{data.duration}</p>
                   <p className="flex text-yellow-500">
@@ -66,7 +66,7 @@ const HotelDetail = () => {
                   <img
                     src={data.image}
                     alt=""
-                    className="w-full h-96 rounded-md"
+                    className="w-full h-64 md:h-96 rounded-md"
                   />
                 </div>
                 <div className="mt-8">

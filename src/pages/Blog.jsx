@@ -7,9 +7,9 @@ import blog4 from "../assets/img/blog4.jpg";
 import blog5 from "../assets/img/blog5.jpeg";
 const Blog = () => {
   return (
-    <div className="container mx-auto my-10">
+    <div className="container md:mx-auto my-10 px-2">
       <div
-        className="hero "
+        className="hero  "
         style={{
           backgroundImage: `url(${blog})`,
           backgroundSize: "cover",
@@ -17,11 +17,11 @@ const Blog = () => {
           borderRadius: ""
         }}
       >
-        <div className="hero-overlay"></div>
+        <div className="hero-overlay "></div>
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
-            <h1 className="mb-5 text-4xl font-bold">
-              <span className="text-black">Travel</span>
+            <h1 className="mb-5 text-2xl md:text-4xl font-bold">
+              <span className="text-[#2B9BF6]">Travel</span>
               <span className="text-[#2B9BF6]"> Bangla</span> Blogs
             </h1>
             <p className="mb-5 font-bold">
