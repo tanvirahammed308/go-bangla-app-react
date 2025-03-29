@@ -50,7 +50,7 @@ const Destinations = () => {
         {selectedCat.slice(0,visibleCard).map((item, index) => (
          <div
          key={index}
-         className="relative group w-96 h-64 shadow-lg rounded-lg overflow-hidden"
+         className="relative group w-80 md:w-96 h-64 shadow-lg rounded-lg overflow-hidden"
        >
          {/* Background Image */}
          <div

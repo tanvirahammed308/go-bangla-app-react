@@ -30,7 +30,7 @@ fetch("/tour.json")
 
      <div className='flex flex-wrap mt-10 gap-5 justify-center'>
         {
-data.map((item)=><div className="card bg-base-100 w-96  border-2 border-[#2B7FFF] shadow-2xl">
+data.map((item)=><div className="card bg-base-100 w-80 md:w-96  border-2 border-[#2B7FFF] shadow-2xl">
 
 <div className="card-body  flex flex-col justify-between items-center gap-2">
     

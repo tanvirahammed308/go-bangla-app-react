@@ -21,7 +21,7 @@ const TopAttraction = ({data}) => {
 
           <div
                    key={index}
-                   className="relative group w-96 h-64 shadow-lg rounded-lg overflow-hidden"
+                   className="relative group w-80 md:w-96 h-64 shadow-lg rounded-lg overflow-hidden"
                  >
                    {/* Background Image */}
                    <div
@@ -33,6 +33,14 @@ const TopAttraction = ({data}) => {
                  
                    {/* Dark Overlay (Becomes Visible on Hover) */}
                    <div className="absolute inset-0 bg-gray-400 opacity-0 group-hover:bg-opacity-100 transition-all duration-300"></div>
+
+                   {/* Static Content without hover */}
+                               <div className="md:hidden absolute bottom-5 left-2 text-white group-hover:opacity-0 transition-opacity duration-300  flex flex-col w-full justify-center items-center">
+                                 <h2 className="text-xl font-bold">{item.name}</h2>
+                                 <Link to={`/destinations/${item.id}`} className="text-sm underline text-[#5C98F2]">
+                                   View Details
+                                 </Link>
+                               </div>
           
                  
                    {/* Hover Content */}

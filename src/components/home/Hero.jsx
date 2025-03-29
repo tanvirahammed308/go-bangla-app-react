@@ -7,7 +7,7 @@ const Hero = () => {
           <div className="hero">
             <div className="hero-content flex-col items-start lg:flex-row-reverse">
               {/* Carousel Container */}
-              <div className="h-[580px] lg:h-[700px] w-[400px] lg:w-[600px] mx-auto overflow-hidden rounded-lg">
+              <div className="h-[300px] lg:h-[700px] w-full lg:w-[600px] mx-auto overflow-hidden rounded-lg ">
                 <div className="carousel carousel-vertical h-full w-full">
                   <div className="carousel-item w-full h-full">
                     <img
@@ -48,7 +48,7 @@ const Hero = () => {
                 <h1 className="text-2xl font-sans font-semibold py-3 text-blue-400">
                   Book with us!
                 </h1>
-                <h1 className="text-6xl lg:text-8xl font-bold font-dmSans">
+                <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold font-dmSans">
                   Find Next Place To{" "}
                   <span className="text-blue-400">Visit </span>
                 </h1>

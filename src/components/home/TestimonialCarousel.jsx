@@ -83,16 +83,16 @@ const TestimonialCarousel = () => {
   };
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
+    <div className="max-w-5xl mx-auto px-4 py-16 sm:px-6 lg:px-8 ">
       <h2 className="text-3xl font-bold text-center text-gray-900 mb-4">
         Guest <span className='text-[#5C98F2]'> Experiences</span> 
       </h2>
-      <p className="text-lg text-center text-gray-600 mb-12">
+      <p className="text-lg text-center text-gray-600 mb-5">
         Hear what our valued guests say about their stay
       </p>
       
       <div className="relative bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100">
-        <div className="relative h-96 ">
+        <div className="relative h-[470px] md:h-96  ">
           <AnimatePresence mode="wait">
             <motion.div
               key={testimonials[currentIndex].id}
@@ -110,7 +110,7 @@ const TestimonialCarousel = () => {
                 "{testimonials[currentIndex].content}"
               </blockquote>
               
-              <div className="flex flex-col items-center">
+              <div className="flex flex-col items-center ">
                 <img 
                   src={testimonials[currentIndex].avatar} 
                   alt={testimonials[currentIndex].name} 
@@ -133,7 +133,7 @@ const TestimonialCarousel = () => {
         </div>
         
         {/* Navigation */}
-        <div className="absolute bottom-6 left-0 right-0 flex justify-center space-x-2 ">
+        <div className="absolute bottom-3 left-0 right-0 flex justify-center space-x-2 ">
           {testimonials.map((_, index) => (
             <button
               key={index}
