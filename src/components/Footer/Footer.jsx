@@ -13,7 +13,7 @@ const Footer = () => {
             <h6 className="font-bold border-b-2 text-lg ">Need Any help?</h6>
             <div className="flex flex-col gap-1 border-l-2 pl-2 border-blue-400 font-semibold my-2">
             <a className="link link-hover">Call 24/7 for any help</a>
-            <a className="link link-hover text-xl text-blue-500 ">+8801822111308</a>
+            <a className="link link-hover text-xl text-blue-500 ">+8809825468794</a>
             </div>
             <div className="flex flex-col gap-1 border-l-2 pl-2 border-blue-400  font-semibold my-1" >
             <a className="link link-hover">Mail to support team</a>
