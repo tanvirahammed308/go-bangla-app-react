@@ -32,7 +32,7 @@ const Destinations = () => {
           alt=""
           className="h-36 w-full rounded opacity-60 bg-black/65"
         />
-        <div className="absolute top-10 md:top-15 md:left-[230px]  flex flex-col justify-center items-center w-full">
+        <div className="absolute top-10 md:top-15 md:left-[5px]  flex flex-col justify-center items-center w-full ">
           <h1 className="text-center text-sm md:text-2xl  ">
             "From the hills to the beaches—experience the true essence of
             Bangladesh!"
