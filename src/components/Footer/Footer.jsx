@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="bg-base-200 mt-10">
+    <div className=" mt-10">
       
         <footer className="footer sm:footer-horizontal  text-base-content font-dmSans p-10  flex flex-wrap justify-between">
           <nav className="">
@@ -53,8 +53,8 @@ const Footer = () => {
             <a className="link link-hover">Rangamati</a>
           </nav>
         </footer>
-     
-      <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
+        {/* bg-base-300  */}
+      <footer className="footer sm:footer-horizontal footer-center  text-base-content p-4 w-full">
   <aside>
     <p>Copyright © {new Date().getFullYear()} - All right reserved by React Titans</p>
   </aside>

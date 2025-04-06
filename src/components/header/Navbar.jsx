@@ -1,5 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { IoHomeOutline } from "react-icons/io5";
+import { BsSend } from "react-icons/bs";
+import { BiCategoryAlt } from "react-icons/bi";
+import { RiBloggerLine } from "react-icons/ri";
+import { MdOutlineContactSupport } from "react-icons/md";
+
+
+
+
+
 
 const Navbar = () => {
   return (
@@ -120,27 +130,34 @@ const Navbar = () => {
               <li>
                 <Link
                   to="/"
-                  className="font-bold hover:border-b-2 border-[#2B7FFF]"
+                  className="font-bold border-b-transparent border-b-2 hover:border-[#2B7FFF]"
                 >
+                  <IoHomeOutline />
+
                   Home
                 </Link>
               </li>
 
               <li>
-                <summary className="font-bold hover:border-b-2 border-[#2B7FFF]">
-                  <Link to="/destinations">Destinations</Link>
+                <summary className="font-bold border-b-transparent border-b-2 hover:border-[#2B7FFF]">
+                  <Link to="/destinations" className="flex items-center gap-1">
+                  <BsSend />
+
+                  Destinations</Link>
                 </summary>
               </li>
               <li>
                 <details>
-                  <summary className="font-bold hover:border-b-2 border-[#2B7FFF]">
+                  <summary className="font-bold border-b-transparent border-b-2 hover:border-[#2B7FFF]">
+                  <BiCategoryAlt />
+
                     Tour Category
                   </summary>
                   <ul className="p-2 bg-gray-200 z-30 w-[180px] px-2">
                     <li>
                       <Link
                         to="/tourcategory/AdventureTour"
-                        className="font-bold hover:border-b-2 border-[#2B7FFF]"
+                        className="font-bold border-b-transparent border-b-2 hover:border-[#2B7FFF]"
                       >
                         Adventure Tour
                       </Link>
@@ -148,7 +165,7 @@ const Navbar = () => {
                     <li>
                       <Link
                         to="/tourcategory/BeachTour"
-                        className="font-bold hover:border-b-2 border-[#2B7FFF]"
+                        className="font-bold border-b-transparent border-b-2 hover:border-[#2B7FFF]"
                       >
                         Beach Tour
                       </Link>
@@ -156,7 +173,7 @@ const Navbar = () => {
                     <li>
                       <Link
                           to="/tourcategory/NatureTour"
-                        className="font-bold hover:border-b-2 border-[#2B7FFF]"
+                        className="font-bold border-b-transparent border-b-2 hover:border-[#2B7FFF]"
                       >
                         Nature Tour
                       </Link>
@@ -164,7 +181,7 @@ const Navbar = () => {
                     <li>
                       <Link
                         to="/tourcategory/HillTour"
-                        className="font-bold hover:border-b-2 border-[#2B7FFF]"
+                        className="font-bold border-b-transparent border-b-2 hover:border-[#2B7FFF]"
                       >
                         Hill Tour
                       </Link>
@@ -172,7 +189,7 @@ const Navbar = () => {
                     <li>
                       <Link
                         to="/tourcategory/HeritageTour"
-                        className="font-bold hover:border-b-2 border-[#2B7FFF]"
+                        className="font-bold border-b-transparent border-b-2 hover:border-[#2B7FFF]"
                       >
                         Heritage Tour
                       </Link>
@@ -182,19 +199,22 @@ const Navbar = () => {
               </li>
 
               <li>
-                <Link to="/blog">
-                <summary className="font-bold hover:border-b-2 border-[#2B7FFF]">
+                <Link to="/blog" className="font-bold border-b-transparent border-b-2 hover:border-[#2B7FFF]">
+                <RiBloggerLine />
+
                   Blog
-                </summary>
+               
                 
                 </Link>
                 
               </li>
               <li>
-                <Link to='/contact'>
-                <summary className="font-bold hover:border-b-2 border-[#2B7FFF]">
+                <Link to='/contact' className="font-bold border-b-transparent border-b-2 hover:border-[#2B7FFF]">
+                
+                <MdOutlineContactSupport />
+
                   Contact
-                </summary>
+                
                 
                 </Link>
                 

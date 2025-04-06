@@ -30,10 +30,10 @@ export const router = createBrowserRouter([
           path: "/destinations/:id",
           element: <DestinationDetails />,
         },
-        {
-          path: "/:id",
-          element: <ProductDetails />,
-        },
+        // {
+        //   path: "/:id",
+        //   element: <ProductDetails />,
+        // },
         {
           path: "/tourcategory/:category",
           element: <TourCategory />,

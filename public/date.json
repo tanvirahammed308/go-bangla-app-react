@@ -14,7 +14,7 @@
     ],
     "best_time_to_visit": "October to March",
     "image_url": "https://farm8.staticflickr.com/7620/27715467586_81cf9c0141_b.jpg",
-    "price": "1500 BDT"
+    "price": "3500 BDT"
   },
   {
     "id": 2,
@@ -31,7 +31,7 @@
     ],
     "best_time_to_visit": "October to March",
     "image_url": "https://live.staticflickr.com/4681/24588057537_69e125500e_b.jpg",
-    "price": "1500 BDT"
+    "price": "3500 BDT"
   },
   {
     "id": 3,
@@ -47,7 +47,7 @@
     ],
     "best_time_to_visit": "All year round",
     "image_url": "https://media.istockphoto.com/id/1437709651/photo/the-most-famous-architecture-in-dhaka-stock-photo.jpg?s=612x612&w=0&k=20&c=wVwSMB0nkapM8PhlgD12njYUUgIRn9ToB6fCYcFPg5s=",
-    "price": "1500 BDT (for guided tour)"
+    "price": "1500 BDT "
   },
   {
     "id": 4,
@@ -64,7 +64,7 @@
     ],
     "best_time_to_visit": "November to February",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Keokradong_10.jpg/500px-Keokradong_10.jpg",
-    "price": "1500 BDT (Trekking fees may apply)"
+    "price": "5500 BDT "
   },
   {
     "id": 5,
@@ -81,7 +81,7 @@
     ],
     "best_time_to_visit": "October to March",
     "image_url": "https://adivai.com/wp-content/uploads/2024/12/image-6394-1481962804.jpg",
-    "price": "1500 BDT"
+    "price": "2500 BDT"
   },
   {
     "id": 6,
@@ -132,7 +132,7 @@
     ],
     "best_time_to_visit": "October to March",
     "image_url": "https://media.gettyimages.com/id/144097590/photo/lalbagh-fort-bangla-mughal-style-architecture-dhaka-bangladesh.jpg?s=612x612&w=0&k=20&c=UlF2lNgAQhkwBvju5t9k8MeTwcf96bC259od6yLuKt4=",
-    "price": "1500 BDT (Entry Fee)"
+    "price": "1500 BDT "
   },
   {
     "id": 9,
@@ -233,7 +233,7 @@
       ],
       "best_time_to_visit": "October to March",
       "image_url": "https://media1.thrillophilia.com/filestore/6ytlq8eswu1glft0hgp7g8ahzdb0_DQo9UJ9XkAEma2Z.jpg_large?w=753&h=450&dpr=2.0",
-      "price": "100 BDT"
+      "price": "800 BDT"
     },
     {
       "id": 15,
@@ -250,7 +250,7 @@
       ],
       "best_time_to_visit": "October to March",
       "image_url": "https://media1.thrillophilia.com/filestore/xjp5cwag6z2a18o2mswtal7djp2y_7d013fc8bd63f7a185c9aeb41864e919.jpg?w=753&h=450&dpr=2.0",
-      "price": "2000 BDT"
+      "price": "3000 BDT"
     },
     {
       "id": 16,
@@ -301,7 +301,7 @@
       ],
       "best_time_to_visit": "October to March",
       "image_url": "https://t3.ftcdn.net/jpg/09/55/48/74/360_F_955487481_ROkAVOJveK5pye9soiR4TAJmpFc2Jofv.jpg",
-      "price": "200 BDT"
+      "price": "1500 BDT"
     },
     {
       "id": 19,
@@ -352,7 +352,7 @@
   ],
   "best_time_to_visit": "October to March",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Ahsan_Manzil-Front_View.jpg",
-  "price": "200 BDT"
+  "price": "2000 BDT"
 },
 {
   "id": 22,
@@ -386,7 +386,7 @@
   ],
   "best_time_to_visit": "October to March",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/River_Teesta%2C_Siliguri%2C_West_Bengal%2C_India_09032019.jpg",
-  "price": "1300 BDT"
+  "price": "2000 BDT"
 },
 {
   "id": 24,
@@ -437,7 +437,7 @@
   ],
   "best_time_to_visit": "October to March",
   "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Zia_Museum_001.JPG",
-  "price": "800 BDT"
+  "price": "2500 BDT"
 },
 {
   "id": 27,
