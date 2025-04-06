@@ -24,11 +24,11 @@ const HotelRoom = () => {
           </h1>
          
         </div>
-        <div className="grid md:grid-cols-3 gap-5 justify-center mt-10 ">
+        <div className="grid md:grid-cols-4 gap-5 justify-center mt-10 ">
           {hotel.map((hotel) => (
-             <div className="w-80 md:w-96 rounded-lg overflow-hidden shadow-lg bg-white border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+             <div className="w-80 md:w-[300px] rounded-lg overflow-hidden shadow-lg bg-white border border-gray-200 hover:shadow-xl transition-shadow duration-300">
             
-             <div className="relative pt-[66.666%] overflow-hidden"> 
+             <div className="relative pt-[66.666%] overflow-hidden w-[90%] mx-auto mt-3 rounded-md"> 
                <img 
                  src={hotel.image} 
                  alt={"Property image"} 
@@ -54,7 +54,7 @@ const HotelRoom = () => {
                  )}
                </div>
 
-               <div className="flex gap-2 text-2xl pt-3 ">
+               <div className="flex gap-2 text-2xl pt-3 space-x-4">
                <RiHotelBedFill className="border-2 rounded-full "/>
                <FaWifi  className="border-2 rounded-full "/>
                <IoIosHome  className="border-2 rounded-full "/>

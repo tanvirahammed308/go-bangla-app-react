@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 import { Link } from "react-router-dom";
+import ProductCard from "../components/ProductCard";
+import BackToTopButton from "../components/home/BackToTopButton";
 
 const Destinations = () => {
   const [data, setData] = useState([]);
-  const [visibleCard, setVisibleCard] = useState(5);
+  const [visibleCard, setVisibleCard] = useState(8);
   useEffect(() => {
     fetch("/date.json")
       .then((res) => res.json())
@@ -26,7 +28,7 @@ const Destinations = () => {
 
   return (
     <div className="mt-10">
-      <div className="mx-2 relative">
+      <div className="mx-2 relative ">
         <img
           src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt=""
@@ -40,62 +42,35 @@ const Destinations = () => {
           <p className="text-center">Choose your favorite destinations</p>
         </div>
 
-        <div className="flex justify-center flex-wrap gap-5 my-5 mx-10 md:mx-0 mt-10">
+        
+      </div>
+      {/* new */}
+      
+      <div className="flex flex-col f md:flex-row justify-between   mt-5">
+        {/* button  */}
+      <div className="w-full md:w-[170px] md:h-[500px] shadow-lg md:border border-gray rounded-md px-2 py-3">
+        <h1 className="capitalize font-bold text-center">category</h1>
+        <div  className=" flex justify-center  flex-wrap  md:flex-col  gap-5  mt-2 ">
           {filterCat.map((item) => (
             <button
-              className="btn btn-outline border-2 border-[#2B7FFF] btn-sm"
+              className="btn btn-outline border-2 border-[#2B7FFF] btn-sm "
               onClick={() => setCat(item)}
             >
               {item}
             </button>
           ))}
+
+        </div>
+        </div>
+        {/* card */}
+        <div className="my-3 grid md:grid-cols-3 justify-center items-center gap-10 mx-0 md:mx-6 ">
+          {selectedCat.slice(0, visibleCard).map((item, index) => (
+            <ProductCard key={index} item={item} /> 
+          ))}
         </div>
       </div>
       <div>
-        <div className="my-3 grid md:grid-cols-3 justify-center items-center gap-10 mx-0 md:mx-6 ">
-          {selectedCat.slice(0, visibleCard).map((item, index) => (
-            <div
-              key={index}
-              className="relative group w-80 md:w-96 h-64 shadow-lg rounded-lg overflow-hidden"
-            >
-              {/* Background Image */}
-              <div
-                className="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-110"
-                style={{
-                  backgroundImage: `url(${item.image_url})`,
-                }}
-              ></div>
-
-              {/* Dark Overlay (Becomes Visible on Hover) */}
-              <div className="absolute inset-0 bg-gray-400 opacity-0 group-hover:bg-opacity-100 transition-all duration-300"></div>
-
-              {/* Static Content without hover */}
-              <div className="md:hidden absolute bottom-5 left-2 text-white group-hover:opacity-0 transition-opacity duration-300  flex flex-col w-full justify-center items-center">
-                <h2 className="text-xl font-bold">{item.name}</h2>
-                <Link
-                  to={`/destinations/${item.id}`}
-                  className="text-sm underline text-[#5C98F2]"
-                >
-                  View Details
-                </Link>
-              </div>
-
-              {/* Hover Content */}
-              
-              <div className="absolute inset-0 md:flex flex-col items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/80 space-y-5 hidden ">
-                <h2 className="text-xl font-bold">{item.name}</h2>
-                <p className="text-center text-sm px-5">{item.description}</p>
-                <Link
-                  to={`/destinations/${item.id}`}
-                  className="text-sm underline text-[#5C98F2]"
-                >
-                  View details
-                </Link>
-              </div>
-              
-            </div>
-          ))}
-        </div>
+        
         <div>
           {visibleCard < data.length && (
             <div className="flex justify-center">
@@ -111,6 +86,7 @@ const Destinations = () => {
           )}
         </div>
       </div>
+      <BackToTopButton/>
     </div>
   );
 };

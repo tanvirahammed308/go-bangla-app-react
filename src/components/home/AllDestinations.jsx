@@ -1,14 +1,14 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa6";
+
 import { Link } from "react-router-dom";
 import ProductCard from "../ProductCard";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 const AllDestinations = ({ data }) => {
   return (
-    <div className="mt-40 md:mt-[400px] ">
+    <div className="mt-40 md:mt-[200px] ">
       <div className="w-full md:w-[1000px] flex flex-col justify-center items-center mx-auto px-5">
-        <Link to="/destinations " className="flex items-center  text-3xl md:text-4xl ">
+        <Link to="/destinations" className="flex items-center  text-3xl md:text-4xl ">
         <h1 className="text-3xl md:text-5xl">
           Top <span className="text-[#5C98F2]"> Destinations</span>
         </h1>
@@ -19,7 +19,7 @@ const AllDestinations = ({ data }) => {
         </p>
       </div>
       
-      <div className="mt-8 grid md:grid-cols-3 justify-center items-center gap-10 mx-0 md:mx-6">
+      <div className="mt-8 grid md:grid-cols-4 justify-center items-center gap-10 mx-0 md:mx-6">
         {data.slice(0, 6).map((item, index) => (
          <ProductCard key={index} item={item} />
         ))}

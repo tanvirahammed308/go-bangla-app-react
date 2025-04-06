@@ -34,7 +34,7 @@ data.map((item)=><div className="card bg-base-100 w-80 md:w-96  border-2 border-
 
 <div className="card-body  flex flex-col justify-between items-center gap-2">
     
-  <h2 className='text-xl'>{item.name}</h2>
+  <h2 className='text-sm md:text-xl'>{item.name}</h2>
   <div className='font-bold flex gap-10'>
   <p>{item.location}</p>
   <p>$ {item.price}</p>
