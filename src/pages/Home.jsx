@@ -9,6 +9,7 @@ import AllDestinations from '../components/home/AllDestinations';
 import HotelRoom from '../components/home/HotelRoom';
 import TestimonialCarousel from '../components/home/TestimonialCarousel';
 import BackToTopButton from '../components/home/BackToTopButton';
+import FAQAccordion from '../components/home/FAQAccordion';
 
 const Home = () => {
   const [data,setData]=useState([]);
@@ -37,6 +38,7 @@ const Home = () => {
       <HiddenGem data={data}/>
       <HotelRoom/>
       <TestimonialCarousel/>
+      <FAQAccordion/>
       <BackToTopButton/>
     </div>
   )
