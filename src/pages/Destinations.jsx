@@ -63,7 +63,7 @@ const Destinations = () => {
         </div>
         </div>
         {/* card */}
-        <div className="my-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  px-2 gap-2  w-full md:w-5/6 ">
+        <div className="my-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  px-2 gap-2  w-full md:w-5/6 ">
   {selectedCat.slice(0, visibleCard).map((item, index) => (
     <ProductCard key={index} item={item} />
   ))}
