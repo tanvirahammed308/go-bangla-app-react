@@ -29,7 +29,7 @@ const Hero = () => {
       <div className="hero">
         <div className="hero-content flex-col items-start lg:flex-row-reverse">
           {/* Carousel Container */}
-          <div className="h-[300px] lg:h-[480px] w-full lg:w-[600px] mx-auto overflow-hidden rounded-lg">
+          <div className="h-[300px] lg:h-[600px] w-full lg:w-[600px] mx-auto overflow-hidden rounded-lg ">
             <div
               className="carousel carousel-vertical h-full w-full"
               ref={carouselRef}

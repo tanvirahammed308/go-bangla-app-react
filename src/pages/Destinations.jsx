@@ -46,9 +46,9 @@ const Destinations = () => {
       </div>
       {/* new */}
       
-      <div className="flex flex-col f md:flex-row justify-between   mt-5">
+      <div className="flex flex-col  md:flex-row justify-between    mt-4 ">
         {/* button  */}
-      <div className="w-full md:w-[170px] md:h-[500px] shadow-lg md:border border-gray rounded-md px-2 py-3">
+      <div className="w-full md:w-1/6 md:h-[500px] shadow-lg md:border border-gray rounded-md px-2 py-3 mt-5">
         <h1 className="capitalize font-bold text-center">category</h1>
         <div  className=" flex justify-center  flex-wrap  md:flex-col  gap-5  mt-2 ">
           {filterCat.map((item) => (
@@ -63,11 +63,12 @@ const Destinations = () => {
         </div>
         </div>
         {/* card */}
-        <div className="my-3 grid md:grid-cols-3 justify-center items-center gap-10 mx-0 md:mx-6 ">
-          {selectedCat.slice(0, visibleCard).map((item, index) => (
-            <ProductCard key={index} item={item} /> 
-          ))}
-        </div>
+        <div className="my-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4  px-2 gap-2  w-full md:w-5/6 ">
+  {selectedCat.slice(0, visibleCard).map((item, index) => (
+    <ProductCard key={index} item={item} />
+  ))}
+</div>
+
       </div>
       <div>
         
