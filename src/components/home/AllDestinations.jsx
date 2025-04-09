@@ -19,7 +19,7 @@ const AllDestinations = ({ data }) => {
         </p>
       </div>
       
-      <div className="mt-8 grid md:grid-cols-4 justify-center items-center gap-10 mx-0 md:mx-6">
+      <div className="mt-8 grid md:grid-cols-4 justify-center items-center gap-10 mx-5 md:mx-6">
         {data.slice(0, 6).map((item, index) => (
          <ProductCard key={index} item={item} />
         ))}

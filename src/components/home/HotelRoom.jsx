@@ -24,9 +24,9 @@ const HotelRoom = () => {
           </h1>
          
         </div>
-        <div className="grid md:grid-cols-4 gap-5 justify-center mt-10 ">
+        <div className="grid md:grid-cols-4 gap-5 justify-center mt-10 px-5 ">
           {hotel.map((hotel) => (
-             <div className="w-80 md:w-[300px] rounded-lg overflow-hidden shadow-lg bg-white border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+             <div className="w-full md:w-[300px] 2xl:w-[350px] rounded-lg overflow-hidden shadow-lg bg-white border border-gray-200 hover:shadow-xl transition-shadow duration-300">
             
              <div className="relative pt-[66.666%] overflow-hidden w-[90%] mx-auto mt-3 rounded-md"> 
                <img 

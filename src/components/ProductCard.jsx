@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const ProductCard = ({item}) => {
   return (
     <div>
-        <div className='w-[350px] md:max-w-[500px]  bg-white shadow-2xl rounded-lg overflow-hidden text-gray-600   py-2'>
+        <div className='w-full md:w-[300px] 2xl:w-[350px]  bg-white shadow-2xl rounded-lg overflow-hidden text-gray-600   py-2'>
             <div className=' rounded-md  px-2'>
             <img src={item.image_url} alt="" className='rounded-md h-36 w-full' />
             </div>

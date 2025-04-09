@@ -10,6 +10,7 @@ import HotelRoom from '../components/home/HotelRoom';
 import TestimonialCarousel from '../components/home/TestimonialCarousel';
 import BackToTopButton from '../components/home/BackToTopButton';
 import FAQAccordion from '../components/home/FAQAccordion';
+import WhatNav from '../components/home/WhatNav';
 
 const Home = () => {
   const [data,setData]=useState([]);
@@ -36,6 +37,7 @@ const Home = () => {
       <PopularPlace data={data}/>
       <TopAttraction data={data}/>
       <HiddenGem data={data}/>
+      <WhatNav/>
       <HotelRoom/>
       <TestimonialCarousel/>
       <FAQAccordion/>

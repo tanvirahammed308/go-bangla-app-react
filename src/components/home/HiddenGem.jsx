@@ -23,7 +23,7 @@ const HiddenGem = ({data}) => {
                       </Link>
          
         </div>
-        <div className='grid md:grid-cols-4 gap-5 my-8 justify-center'>
+        <div className='grid md:grid-cols-4 gap-5 my-8 justify-center px-5'>
           {
             hiddenGen.map((item,index)=><Link to={`/${item.id}`}>
               
